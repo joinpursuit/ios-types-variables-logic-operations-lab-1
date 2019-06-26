@@ -11,7 +11,7 @@
 
 ## 1. Which data type would be the best to use for recording the total balance of an online shopping cart?
 
-// your answer here
+// Double
 
 ***
 ## 2. Which of the following variable declarations is **incorrect**?
@@ -25,11 +25,13 @@ let emotion: String = ":)"
 
 let grade: Char = "a"
 ```
-
+//let grade:Char = "a"  is wrong, Char should be expressed as Character
 ***
 ## 3. Simplify the following using a calculator:
 
 1 + 4 * 2 / 2 + 2
+
+//7
 
 ***
 ## 4. Which of the following are true? State all that apply.
@@ -43,6 +45,8 @@ let grade: Char = "a"
 
 (14 % 2 < 4) || (243 % 13 > 2) || (52 % 3 > 5)
 ```
+
+//all except the last one
 
 ***
 ## 5. Which of the follow is true?
