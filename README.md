@@ -76,6 +76,8 @@ let numEight = 5.0 + .2
 let d = numSeven == numEight
 ```
 
+a is true
+
 ***
 ## 6. What is the final value of i?
 
@@ -87,3 +89,4 @@ i *= 2
 i %= 3
 i -= 3
 ```
+-2
