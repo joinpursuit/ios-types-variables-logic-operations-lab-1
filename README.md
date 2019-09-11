@@ -570,7 +570,7 @@ Output:
 ***
 
 ## 32. You are given three grades obtained by 3 students in a class stored in variables grade1, grade2, grade3 of typeDouble.
-## You are also given your grade in the class stored in a variable yourGrade of type Double.
+### You are also given your grade in the class stored in a variable yourGrade of type Double.
 ## Print above average if your grade is greater than the class average or below average” otherwise.
 
 ## Note: the average of the class includes your grade.
