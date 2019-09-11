@@ -227,8 +227,8 @@ Output:
 ```
 
 ***
-## 11. Everyone hates solving word problems by hand so let’s make a program to solve them for us.
-## x years from now Alice will be y times older than her brother Bob. Bob is 12 years old. How many years does Alice have?
+## 11. Everyone hates solving word problems by hand so let’s make a program to solve them for us. 
+### x years from now Alice will be y times older than her brother Bob. Bob is 12 years old. How many years does Alice have?
 
 ```swift
 var x = 3
@@ -262,9 +262,7 @@ Solve for alice
 ```
 
 ***
-## 12. You have x apples. Bob trades 3 oranges for 5 apples. He does not accept trades with cut fruit.
-## How many oranges can you get from Bob and how many apples will you have left?
-## The number of apples you will have left should be stored in a variable named apples. The number of oranges you will have after the trade should be stored in a variable named oranges.
+## 12. You have x apples. Bob trades 3 oranges for 5 apples. He does not accept trades with cut fruit. How many oranges can you get from Bob and how many apples will you have left? The number of apples you will have left should be stored in a variable named apples. The number of oranges you will have after the trade should be stored in a variable named oranges.
 
 ```swift
 var x = 17
@@ -292,7 +290,7 @@ Use the division(/) and the remainder(%) operator
 
 ***
 ## 13. A class consists of numberOfBoys boys and numberOfGirls girls.
-## Print the percentage of boys in the class followed by the percentage of girls in the class. The percentage should be printed rounded down to the nearest integer. For example 33.333333333333 will be printed as 33.
+### Print the percentage of boys in the class followed by the percentage of girls in the class. The percentage should be printed rounded down to the nearest integer. For example 33.333333333333 will be printed as 33.
 
 ```swift
 var numberOfBoys = 20
@@ -347,11 +345,11 @@ e. !(3 != 3)
 
 ***
 ## 17.
-## let x = 5 > 4
-## let y = 100 / 10 == 1
-## let z = 6
+### let x = 5 > 4
+### let y = 100 / 10 == 1
+### let z = 6
 
-## Given the above, which of the following expressions evaluate to true?
+### Given the above, which of the following expressions evaluate to true?
 
 ```swift
 a. x && y
@@ -363,10 +361,10 @@ e. !(z < 6) && !y && !x
 ```
 ***
 ## 18.
-## let tru = "hello world" == "Hello World"
-## let fal = 7.0 / 2.0 == 3.5
+### let tru = "hello world" == "Hello World"
+### let fal = 7.0 / 2.0 == 3.5
 
-## Given the above, which of the following expressions evaluate to true?
+### Given the above, which of the following expressions evaluate to true?
 
 ```swift
 a. tru && fal
@@ -434,7 +432,7 @@ let isEqual = div == div2
 ```
 ***
 ## 23. var n = 7.5
-## What is true about the variable n?
+### What is true about the variable n?
 
 ```swift
 a. n is a Float
@@ -488,7 +486,7 @@ d. It will give a compile-time error
 ```
 ***
 ## 28. You are given a number a. Print the last digit of a.
-## var a = 123
+### var a = 123
 
 ```swift
 
