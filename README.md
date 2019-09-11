@@ -540,7 +540,7 @@ var b = 5.0
 
 ## 30. You are given 3 grades stored in 3 variables of type Double finalsGrade, midtermGrade, projectGrade. These grades are used to compute the grade for a class. finalsGrade represents 50% of the grade. midtermGrade represents 20% of the grade. projectGrade represents 30% of the final grade.
 
-## Print the grade for the class.
+### Print the grade for the class.
 
 ```swift
 
@@ -552,10 +552,9 @@ var projectGrade = 3.0
 
 ***
 
-## 31. You have the cost of a meal at a restaurant stored in a variable mealCost of type Double.
-## You would like to leave a tip of a certain percentage. The percentage is stored in a variable tip of type Int.
+## 31. You have the cost of a meal at a restaurant stored in a variable mealCost of type Double. You would like to leave a tip of a certain percentage. The percentage is stored in a variable tip of type Int.
 
-## Print the total cost of the meal.
+### Print the total cost of the meal.
 ```swift
 
 Input: 
@@ -569,7 +568,7 @@ Output:
 ```
 ***
 
-## 32. You are given three grades obtained by 3 students in a class stored in variables grade1, grade2, grade3 of typeDouble You are also given your grade in the class stored in a variable yourGrade of type Double. Print above average if your grade is greater than the class average or below average” otherwise.
+## 32. You are given three grades obtained by 3 students in a class stored in variables grade1, grade2, grade3 of typeDouble. You are also given your grade in the class stored in a variable yourGrade of type Double. Print above average if your grade is greater than the class average or below average” otherwise.
 
 ### Note: the average of the class includes your grade.
 ```swift
