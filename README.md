@@ -569,11 +569,9 @@ Output:
 ```
 ***
 
-## 32. You are given three grades obtained by 3 students in a class stored in variables grade1, grade2, grade3 of typeDouble.
-### You are also given your grade in the class stored in a variable yourGrade of type Double.
-## Print above average if your grade is greater than the class average or below average” otherwise.
+## 32. You are given three grades obtained by 3 students in a class stored in variables grade1, grade2, grade3 of typeDouble You are also given your grade in the class stored in a variable yourGrade of type Double. Print above average if your grade is greater than the class average or below average” otherwise.
 
-## Note: the average of the class includes your grade.
+### Note: the average of the class includes your grade.
 ```swift
 
 Input: 
@@ -588,11 +586,9 @@ Output:
 ```
 ***
 
-## 33. A farmer is harvesting wheat from a number of wheat fields, given in a variable numberOfFields of type Int.
-## Each field produces the same quantity of wheat given in a variable wheatYieldof type Double.
-## Sometimes the harvest is increased by 50% due to favorable weather conditions. You are given this information in a variable weatherWasGood of type Bool.
+## 33. A farmer is harvesting wheat from a number of wheat fields, given in a variable numberOfFields of type Int. Each field produces the same quantity of wheat given in a variable wheatYieldof type Double. Sometimes the harvest is increased by 50% due to favorable weather conditions. You are given this information in a variable weatherWasGood of type Bool.
 
-## Print the total amount of wheat that the farmer will harvest.
+### Print the total amount of wheat that the farmer will harvest.
 
 
 ```
