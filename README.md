@@ -587,5 +587,6 @@ Output:
 
 ### Print the total amount of wheat that the farmer will harvest.
 
+<img width="270" alt="Screen Shot 2019-09-12 at 1 50 33 PM" src="https://user-images.githubusercontent.com/43886240/64808175-c03a4180-d564-11e9-8502-4fcade888dc1.png">
 
 ```
