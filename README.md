@@ -22,7 +22,7 @@ d. let whiteHouseAddress: Int + String = 1600 + "Pennsylvania Ave"
 
 e. var peopleAtParty: Double = "95"
 ```
-
+THIS 
 ***
 ## 2. Which of the following expressions evaluate to true?
 
@@ -37,6 +37,7 @@ d. !!(!!true && !!false)
 
 e. true && (true && (true && (true || false)))
 ```
+IS 
 
 ***
 ## 3. Mad-Libs! Add a value to the declared variables below in playgrounds. Insert the variables (already in correct order) inside the stringmadLib and print. 
@@ -62,7 +63,7 @@ be \() miles an hour, and the high temperature should
 be around \() degrees. So, if you're going out, you had
 better plan on wearing your \()".
 ```
-
+JUST 
 ***
 ## 4. You are given two variables a and b, compute their sum and store it in another variable named sum then print the result.
 
@@ -90,6 +91,7 @@ sum = 35
 Output:
 35
 ```
+A
 
 ***
 ## 5.Determine the number of seconds in a year and store the number in a variable named secondsInAYear.
@@ -100,6 +102,7 @@ The number of seconds in a year is 365 times the number of seconds in a day.
 The number of seconds in a day is 24 times the number of seconds in a hour.
 The number of seconds in a hour is 60 times the number of seconds in a minute, which is 60.
 ```
+TEST 
 
 ***
 ## 6. Your are given the width and height of a screen in pixels. Calculate the total number of pixels on the screen and store the result in a variable named numberOfPixels.
@@ -132,7 +135,7 @@ Consider a 5x3 screen like this:
 
 The number of pixels on this screen is 5+5+5 = 5*3
 ```
-
+V,MSDN;VSDMVL,DNVLK V FM.V AM V
 ***
 ## 7. You are given the sum and the difference of two numbers. Find out the values of the original numbers and store them in variables a and b.
 
@@ -162,6 +165,7 @@ Hint:
 sum + diff = a + a + b - b
 sum + diff = 2 * a
 ```
+VODNVKNMQRPIM'MDS;FMNAPK V KRCQ VKAD;KMNSA;MV;S DKVWD
 
 ***
 ## 8. Given two variable a and b, swap their values. That is the new value of a will become the old value of b and vice versa.
@@ -184,7 +188,7 @@ var b = 2
 a = b // a will have the value 2. The original value of a is lost
 b = a // b will remain the same
 ```
-
+DFASDFWADFWRFAWGSD;,MC,,MASDM
 ***
 ## 9. You are given a number a. Print the last digit of a.
 
@@ -211,6 +215,7 @@ Remember that a = k * (a / k) + a % k
 Can you think of a value for k that gives the last digit?
 
 ```
+BNALD \BLAHH BLAH BLAHVA'
 
 ***
 ## 10. You are given Rocky’s age in dog years. Print Rocky’s age in human years. You know that 1 human year is 7 dog years.
@@ -225,7 +230,7 @@ Output:
 7
 
 ```
-
+DSMDKMKDW; CKE FP2NEPCKNK;nlm vlm kl vk       vm    
 ***
 ## 11. Everyone hates solving word problems by hand so let’s make a program to solve them for us. 
 ### x years from now Alice will be y times older than her brother Bob. Bob is 12 years old. How many years does Alice have?
@@ -331,3 +336,4 @@ e. 9 > 7 && 7 < 10
 
 ```
 
+;SNV;SNV VK QKV ; ;A LAMD FWQ
