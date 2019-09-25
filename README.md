@@ -65,9 +65,10 @@ sum = 35
 
 Output:
 35
-```
-var sum: Int = a + b
+``` swift
+var sum: Int = a + b 
  print(sum)
+```
 ***
 ## 4.Determine the number of seconds in a year and store the number in a variable named secondsInAYear.
 
@@ -138,9 +139,10 @@ b = 1
 Hint:
 sum + diff = a + a + b - b
 sum + diff = 2 * a
-```
+``` swift
 var a : Int = (sum+diff)/2
 var b : Int = sum - a
+```
 ***
 ## 7. Given two variable a and b, swap their values. That is the new value of a will become the old value of b and vice versa.
 
@@ -161,10 +163,11 @@ var b = 2
 
 a = b // a will have the value 2. The original value of a is lost
 b = a // b will remain the same
-```
+``` swift
 var tempA = a
 a = b
 b = tempA
+```
 ***
 ## 8. You are given a number a. Print the last digit of a.
 
@@ -266,9 +269,10 @@ oranges = 15
 Hint:
 Use the division(/) and the remainder(%) operator
 
-```
+```swift
 var oranges = (x/5) * 3
 var apples = x % 5
+```
 ***
 ## 12. A class consists of numberOfBoys boys and numberOfGirls girls.
 ### Print the percentage of boys in the class followed by the percentage of girls in the class. The percentage should be printed rounded down to the nearest integer. For example 33.333333333333 will be printed as 33.
@@ -287,11 +291,13 @@ Output:
 75 // percentage of girls
 
 ```
+``` swift
 var boys = Double(numberOfBoys)
 var girls = Double(numberOfGirls)
 var percentBoys = (boys/(boys + girls)) * 100
 print(Int(percentBoys))
 print(Int(100 - percentBoys))
+```
 ***
 ## 13.Which of the following expressions evaluate to true?
 
