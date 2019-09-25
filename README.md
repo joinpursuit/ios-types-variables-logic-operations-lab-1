@@ -21,8 +21,11 @@ c. var isSummer: String = false
 d. let whiteHouseAddress: Int + String = 1600 + "Pennsylvania Ave"
 
 e. var peopleAtParty: Double = "95"
-```
 
+answer: 
+
+b, 
+```
 ***
 ## 2. Which of the following expressions evaluate to true?
 
@@ -36,6 +39,10 @@ c. (3 < 2 || (0 < 1 && 3 >= 3)) && true
 d. !!(!!true && !!false)
 
 e. true && (true && (true && (true || false)))
+
+answer: 
+
+c, e
 ```
 
 ***
@@ -43,28 +50,15 @@ e. true && (true && (true && (true || false)))
 ## 3. You are given two variables a and b, compute their sum and store it in another variable named sum then print the result.
 
 ```swift
+answer:
 
-Example 1
-Input:
-var a = 1
-var b = 2
+var a = 2
+var b = 3
 
-Expected values:
-sum = 3
+var sum = a + b
+print (sum)
 
-Output: 
-3
 
-Example 2
-Input:
-var a = 13
-var b = 22
-
-Expected values: 
-sum = 35
-
-Output:
-35
 ```
 
 ***
@@ -75,6 +69,13 @@ Hint:
 The number of seconds in a year is 365 times the number of seconds in a day.
 The number of seconds in a day is 24 times the number of seconds in a hour.
 The number of seconds in a hour is 60 times the number of seconds in a minute, which is 60.
+
+answer: 
+
+var secondsInMinute = 60
+var secondsInHour = 60 * secondsInMinutes
+var secondsInDay = 24 * secondsInHour
+var secondsInYear = 365 * secondsInDay
 ```
 
 ***
@@ -107,6 +108,12 @@ Consider a 5x3 screen like this:
 *****
 
 The number of pixels on this screen is 5+5+5 = 5*3
+
+answer:
+
+var width = 1590
+var height = 2401
+var numberOfPixels = width * height
 ```
 
 ***
@@ -137,6 +144,13 @@ b = 1
 Hint:
 sum + diff = a + a + b - b
 sum + diff = 2 * a
+
+answer:
+
+var sum = 25 // a + b
+var diff = 6 // a - b
+var a = (sum + diff)/2
+var b = sum - a
 ```
 
 ***
@@ -159,6 +173,15 @@ var b = 2
 
 a = b // a will have the value 2. The original value of a is lost
 b = a // b will remain the same
+
+answer:
+
+var a = 3
+var b = 4
+let c = a
+
+a = b
+b = c
 ```
 
 ***
@@ -186,6 +209,10 @@ Use the remainder % operator.
 Remember that a = k * (a / k) + a % k
 Can you think of a value for k that gives the last digit?
 
+var a = 227
+
+print (a % 10)
+
 ```
 
 ***
@@ -200,6 +227,10 @@ var rockysAge = 50
 Output:
 7
 
+answer:
+
+var rockysAge = 49
+print (rockysAge / 7)
 ```
 
 ***
@@ -235,6 +266,12 @@ Hint:
 alice + x = y * (bob + x)
 Solve for alice
 
+answer: 
+
+var x = 4
+var y = 2
+var bob = 12
+var alice = y * (bob + x) - x
 ```
 
 ***
@@ -262,6 +299,12 @@ oranges = 15
 Hint:
 Use the division(/) and the remainder(%) operator
 
+answer: 
+
+ var x = 8
+ var apples = x % 5
+ var oranges = (x / 5) * 3
+
 ```
 
 ***
@@ -281,6 +324,17 @@ Output:
 25 // percentage of boys
 75 // percentage of girls
 
+answer:
+
+var numberOfBoys = 25
+var numberOfGirls = 75
+
+percentageOfBoys = numberOfBoys/(numberOfBoys + numberOfGirls)
+percentageOfGirls = numberOfGirls/(numberOfBoys + numberOfGirls)
+
+print(percentageOfBoys)
+print(percentageOfGirls)
+
 ```
 
 ***
@@ -293,6 +347,9 @@ c. !false
 d. !!!true
 e. !(true && true)
 
+answer:
+
+a, c, 
 ```
 
 ***
@@ -305,5 +362,8 @@ c. "Hello!" == "Hello!"
 d. 19.0 >= 19.0
 e. 9 > 7 && 7 < 10
 
+anwer:
+
+a, c, d, e
 ```
 
