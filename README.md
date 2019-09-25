@@ -110,7 +110,7 @@ Consider a 5x3 screen like this:
 
 The number of pixels on this screen is 5+5+5 = 5*3
 ```
-ver numberOfPixels: Int = height * width
+var numberOfPixels: Int = height * width
 ***
 ## 6. You are given the sum and the difference of two numbers. Find out the values of the original numbers and store them in variables a and b.
 
