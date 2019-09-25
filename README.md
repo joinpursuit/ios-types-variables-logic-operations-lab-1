@@ -249,9 +249,10 @@ Output:
 ```
 Answer
 ```swift
-var dogToHumanYears = 7
 var rockeysAge = 50  // I'm using the example age since I couldn't find Rocky's age on the question
-print(rockeysAge / 7)
+var rockeysAgeToHumanAge = rockeysAge / 7
+
+print(rockeysAgeToHumanAge)
 ```
 ***
 ## 10. Everyone hates solving word problems by hand so let’s make a program to solve them for us. 
