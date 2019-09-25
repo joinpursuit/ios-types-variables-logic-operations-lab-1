@@ -231,7 +231,8 @@ Can you think of a value for k that gives the last digit?
 Answer
 ```swift
 var a = 123
-print(a % 10)
+var lastDigit = a % 10
+print(lastDigit)
 ```
 ***
 ## 9. You are given Rocky’s age in dog years. Print Rocky’s age in human years. You know that 1 human year is 7 dog years.
