@@ -348,8 +348,8 @@ Output:
 ```
 Answer
 ```swift
-var numberOfBoys: Double = 21
-var numberOfGirls: Double = 59
+var numberOfBoys: Double = 20
+var numberOfGirls: Double = 60
 var percentage = Int(numberOfBoys / (numberOfBoys + numberOfGirls) * 100)
 
 print(percentage)
