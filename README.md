@@ -73,7 +73,7 @@ Output:
 
 var a = 1
 var b = 2
-var sum = a + b
+let sum = a + b
 
 print(sum)
 ```
@@ -82,7 +82,7 @@ print(sum)
 
 var a = 13
 var b = 22
-var sum = a + b
+let sum = a + b
 
 print(sum)
 ```
