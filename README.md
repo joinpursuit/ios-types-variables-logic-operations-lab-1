@@ -21,6 +21,8 @@ c. var isSummer: String = false
 d. let whiteHouseAddress: Int + String = 1600 + "Pennsylvania Ave"
 
 e. var peopleAtParty: Double = "95"
+
+Answer: None of the above
 ```
 
 ***
@@ -36,6 +38,8 @@ c. (3 < 2 || (0 < 1 && 3 >= 3)) && true
 d. !!(!!true && !!false)
 
 e. true && (true && (true && (true || false)))
+
+Answers: C, E
 ```
 
 ***
@@ -65,6 +69,10 @@ sum = 35
 
 Output:
 35
+
+Answer: var sum = a + b
+print(sum)
+
 ```
 
 ***
@@ -75,6 +83,8 @@ Hint:
 The number of seconds in a year is 365 times the number of seconds in a day.
 The number of seconds in a day is 24 times the number of seconds in a hour.
 The number of seconds in a hour is 60 times the number of seconds in a minute, which is 60.
+
+secondsInAYear = 365 * 24 * 60 * 60
 ```
 
 ***
@@ -107,6 +117,8 @@ Consider a 5x3 screen like this:
 *****
 
 The number of pixels on this screen is 5+5+5 = 5*3
+
+Answer: var numberOfPixels = width * height
 ```
 
 ***
@@ -137,6 +149,10 @@ b = 1
 Hint:
 sum + diff = a + a + b - b
 sum + diff = 2 * a
+
+var a = (sum + diff) / 2
+var b = sum - a
+
 ```
 
 ***
@@ -154,11 +170,15 @@ b = 1
 Hint:
 Just assigning a to the value of b and b to the value of a will not work.
 
+Answer:
 var a = 1
 var b = 2
+var exampleA = a
+var exampleB = b
+a = exampleB
+b = exampleA
 
-a = b // a will have the value 2. The original value of a is lost
-b = a // b will remain the same
+
 ```
 
 ***
@@ -186,6 +206,9 @@ Use the remainder % operator.
 Remember that a = k * (a / k) + a % k
 Can you think of a value for k that gives the last digit?
 
+Answer: 
+print(a % 10)
+
 ```
 
 ***
@@ -200,6 +223,7 @@ var rockysAge = 50
 Output:
 7
 
+Answer: print(rockysAge/7)
 ```
 
 ***
@@ -235,6 +259,10 @@ Hint:
 alice + x = y * (bob + x)
 Solve for alice
 
+Answer: 
+
+var alice = y * (bob + x) - x
+
 ```
 
 ***
@@ -262,6 +290,9 @@ oranges = 15
 Hint:
 Use the division(/) and the remainder(%) operator
 
+var apples = x % 5
+var oranges = (x/5) * 3
+
 ```
 
 ***
@@ -281,6 +312,20 @@ Output:
 25 // percentage of boys
 75 // percentage of girls
 
+Answer:
+var numberOfBoys: Double = x
+var numberOfGirls: Double = y
+var total = numberOfBoys + numberOfGirls
+var percentageOfBoys = Int ((numberOfBoys / total) * 100)
+
+
+print(percentageOfBoys)
+
+var percentageOfGirls = Int ((numberOfGirls / total) * 100)
+
+print(percentageOfGirls)
+
+
 ```
 
 ***
@@ -293,6 +338,8 @@ c. !false
 d. !!!true
 e. !(true && true)
 
+Answer: A,C
+
 ```
 
 ***
@@ -304,6 +351,8 @@ b. 9 == 2
 c. "Hello!" == "Hello!"
 d. 19.0 >= 19.0
 e. 9 > 7 && 7 < 10
+
+Answer: C,D,E
 
 ```
 
