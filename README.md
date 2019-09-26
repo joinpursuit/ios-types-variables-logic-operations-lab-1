@@ -95,7 +95,15 @@ The number of seconds in a year is 365 times the number of seconds in a day.
 The number of seconds in a day is 24 times the number of seconds in a hour.
 The number of seconds in a hour is 60 times the number of seconds in a minute, which is 60.
 ```
+# ANSWER
+```swift
+let secInMin = 60
+let secInHour = secInMin * 60
+let secInDay = secInHour * 24
+let secInYear = secInDay * 365
 
+print(secInYear)
+```
 ***
 ## 5. Your are given the width and height of a screen in pixels. Calculate the total number of pixels on the screen and store the result in a variable named numberOfPixels.
 
