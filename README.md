@@ -32,13 +32,13 @@ NONE ARE DECLARED CORRECTLY
 ## 2. Which of the following expressions evaluate to true?
 
 ```swift
-a. !(4 + 3 < 2 * 4) --false
+a. !(4 + 3 < 2 * 4)
 
-b. !(1 + 1 != 2) && !(3 >= 3) --false
+b. !(1 + 1 != 2) && !(3 >= 3)
 
-c. (3 < 2 || (0 < 1 && 3 >= 3)) && true --true
+c. (3 < 2 || (0 < 1 && 3 >= 3)) && true
 
-d. !!(!!true && !!false) -- false
+d. !!(!!true && !!false)
 
 e. true && (true && (true && (true || false)))
 ```
@@ -79,6 +79,7 @@ Output:
 THE ANSWER IS
 
 var a = 1
+
 var b = 2
 var sum = a + b
 
