@@ -22,6 +22,7 @@ d. let whiteHouseAddress: Int + String = 1600 + "Pennsylvania Ave"
 
 e. var peopleAtParty: Double = "95"
 ```
+### ANSWER: NONE OF THE ABOVE ARE TRUE
 
 ***
 ## 2. Which of the following expressions evaluate to true?
