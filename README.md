@@ -22,7 +22,9 @@ d. let whiteHouseAddress: Int + String = 1600 + "Pennsylvania Ave"
 
 e. var peopleAtParty: Double = "95"
 ```
-```All wrong
+
+```
+All wrong
 ```
 ***
 ## 2. Which of the following expressions evaluate to true?
@@ -38,6 +40,7 @@ d. !!(!!true && !!false)
 
 e. true && (true && (true && (true || false)))
 ```
+
 ```
 E C A
 ```
@@ -69,7 +72,8 @@ sum = 35
 Output:
 35
 ```
-```var sum = a + b
+```
+var sum = a + b
 print(sum)
 ```
 ***
