@@ -34,6 +34,7 @@ var b = 2
 var sum = (a + b)
 
 print(sum)
+```
 
 ***
 ## 2. Boolean Evaluations 1
