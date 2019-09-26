@@ -25,7 +25,10 @@ d. let whiteHouseAddress: Int + String = 1600 + "Pennsylvania Ave"
 
 e. var peopleAtParty: Double = "95"
 ```
-
+Answer
+```swift
+Neither of the given choices are correct.
+```
 ***
 ## 2. Boolean Evaluations 1
 
@@ -41,6 +44,10 @@ c. (3 < 2 || (0 < 1 && 3 >= 3)) && true
 d. !!(!!true && !!false)
 
 e. true && (true && (true && (true || false)))
+```
+Answer
+```swift
+C and E evaluate to true
 ```
 
 ***
@@ -73,6 +80,13 @@ sum = 35
 Output:
 35
 ```
+Answer
+```swift
+var sum = a + b
+
+print(sum)
+
+```
 
 ***
 ## 4. Seconds in Year
@@ -85,6 +99,18 @@ The number of seconds in a year is 365 times the number of seconds in a day.
 The number of seconds in a day is 24 times the number of seconds in a hour.
 The number of seconds in a hour is 60 times the number of seconds in a minute, which is 60.
 ```
+Answer
+```swift
+var secondsInAMinute = 60
+var secondsInAnHour = 60 * (secondsInAMinute)
+var secondsInADay = 24 * (secondsInAnHour)
+var secondsInAYear = 365 * (secondsInADay)
+
+print(secondsInAYear)
+
+secondsInAYear = 31536000
+```
+
 
 ***
 ## 5. Number of Pixels
@@ -119,6 +145,13 @@ Consider a 5x3 screen like this:
 
 The number of pixels on this screen is 5+5+5 = 5*3
 ```
+Answer
+```swift
+var numberOfPixels = (width * height)
+
+print(numberOfPixels)
+
+```
 
 ***
 ## 6. Sum and Difference
@@ -151,6 +184,18 @@ Hint:
 sum + diff = a + a + b - b
 sum + diff = 2 * a
 ```
+Answer
+```swift
+let sum = 16
+let dif = 4
+//sum + dif = 20
+
+var a = (sum + dif)/2
+var b = sum - a
+
+print(a)
+print(b)
+```
 
 ***
 ## 7. Swap Values
@@ -175,7 +220,18 @@ var b = 2
 a = b // a will have the value 2. The original value of a is lost
 b = a // b will remain the same
 ```
+Answer
+```swift
+var a = 2
+var b = 1
 
+a = a + b
+b = a - b
+a = a - b
+
+print(a)
+print(b)
+```
 ***
 ## 8. Find last number
 
@@ -201,6 +257,12 @@ Output:
 Hint:
 Use the remainder % operator.
 ```
+Answer
+```swift
+var a1 = 123
+
+print(a1 % 10)
+```
 
 ***
 ## 9. Dog Years
@@ -216,6 +278,14 @@ var rockysAgeInDogYears = 50
 Output:
 7
 
+```
+Answer
+```swift
+var rockysAge = 50
+
+var humanYears = (rockysAge) / 7
+
+print(humanYears)
 ```
 
 ***
@@ -253,6 +323,24 @@ alice + x = y * (bob + x)
 Solve for alice
 
 ```
+Answer
+```swift
+var x = 3
+var y = 2
+var bob = 12
+
+var alice = y * (bob + x) - x
+
+print(alice)
+
+var x = 1
+var y = 3
+var bob = 12
+
+var alice = y * (bob + x) - x
+
+print(alice)
+```
 
 ***
 ## 11. Trading Oranges for Apples
@@ -281,6 +369,24 @@ oranges = 15
 Hint:
 Use the division(/) and the remainder(%) operator
 
+```
+Answer
+```swift
+var x = 17
+var apples = x % 5
+
+var oranges = ((x - apples)/5) * 3
+
+print(apples)
+print(oranges)
+
+var x = 25
+var apples = x % 5
+
+var oranges = ((x - apples)/5) * 3
+
+print(apples)
+print(oranges)
 ```
 
 ***
@@ -318,6 +424,10 @@ d. !!!true
 e. !(true && true)
 
 ```
+Answer
+```swift
+A
+```
 
 ***
 ## 14. Boolean Evaluations 3
@@ -332,4 +442,7 @@ d. 19.0 >= 19.0
 e. 9 > 7 && 7 < 10
 
 ```
-
+Answer
+```swift
+A,C,D,E
+```
