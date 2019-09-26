@@ -4,7 +4,7 @@
 
 1. Fork the assignment repo
 1. Clone your Fork to your machine
-1. Complete the lab
+1. Complete the lab  - 
 1. Push your changes to your Fork
 1. Submit a Pull Request back to the assignment repo
 1. Paste a link of your Fork on Canvas and submit
