@@ -23,7 +23,7 @@ d. let whiteHouseAddress: Int + String = 1600 + "Pennsylvania Ave"
 e. var peopleAtParty: Double = "95"
 ```
 ```
-Answer:
+Answer: None of the above.
 
 ``` 
 
@@ -42,6 +42,9 @@ d. !!(!!true && !!false)
 e. true && (true && (true && (true || false)))
 ```
 
+```
+Answer: E
+```
 ***
 
 ## 3. You are given two variables a and b, compute their sum and store it in another variable named sum then print the result.
@@ -70,7 +73,11 @@ sum = 35
 Output:
 35
 ```
-
+```
+Answer:
+var sum = (a + b)
+print(sum)
+```
 ***
 ## 4.Determine the number of seconds in a year and store the number in a variable named secondsInAYear.
 
@@ -79,6 +86,13 @@ Hint:
 The number of seconds in a year is 365 times the number of seconds in a day.
 The number of seconds in a day is 24 times the number of seconds in a hour.
 The number of seconds in a hour is 60 times the number of seconds in a minute, which is 60.
+```
+```
+Answer:
+var secondsInAMin = 60
+var secondsInAHour = 60 * secondsInAMin
+var secondsInADay = 24 * secondsInAHour
+var secondsInAYear = 365 * secondsInADay
 ```
 
 ***
