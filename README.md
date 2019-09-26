@@ -22,7 +22,7 @@ d. let whiteHouseAddress: Int + String = 1600 + "Pennsylvania Ave"
 
 e. var peopleAtParty: Double = "95"
 ```
-
+// the answer is = they are all incorrect none compile 
 ***
 ## 2. Which of the following expressions evaluate to true?
 
@@ -37,7 +37,7 @@ d. !!(!!true && !!false)
 
 e. true && (true && (true && (true || false)))
 ```
-
+// The answer is c & e
 ***
 
 ## 3. You are given two variables a and b, compute their sum and store it in another variable named sum then print the result.
@@ -66,7 +66,12 @@ sum = 35
 Output:
 35
 ```
+The answer:
+var a = 1
+var b = 2
 
+var sum = a + b
+print(sum)
 ***
 ## 4.Determine the number of seconds in a year and store the number in a variable named secondsInAYear.
 
@@ -76,6 +81,15 @@ The number of seconds in a year is 365 times the number of seconds in a day.
 The number of seconds in a day is 24 times the number of seconds in a hour.
 The number of seconds in a hour is 60 times the number of seconds in a minute, which is 60.
 ```
+Tha answer:
+var secondsInMin = 60
+
+var secondsInHour = secondsInMin * 60
+
+var secondsInDay = secondsInHour * 24
+
+var secondsInYear = secondsInDay * 365
+
 
 ***
 ## 5. Your are given the width and height of a screen in pixels. Calculate the total number of pixels on the screen and store the result in a variable named numberOfPixels.
@@ -108,6 +122,12 @@ Consider a 5x3 screen like this:
 
 The number of pixels on this screen is 5+5+5 = 5*3
 ```
+// The answer:
+var width = 4
+var height = 3
+
+var numberOfPixels = width * height
+print(numberOfPixels)
 
 ***
 ## 6. You are given the sum and the difference of two numbers. Find out the values of the original numbers and store them in variables a and b.
@@ -138,6 +158,20 @@ Hint:
 sum + diff = a + a + b - b
 sum + diff = 2 * a
 ```
+The Answer : 
+
+var a = 12
+var b = 4
+
+let sum = a + b
+let diff = a - b
+
+print(sum)
+print(diff)
+
+let compareEquation = (sum + diff) == (a + a + b - b)
+
+let compareEqutionNumTwo = (sum + diff) == (2 * a)
 
 ***
 ## 7. Given two variable a and b, swap their values. That is the new value of a will become the old value of b and vice versa.
@@ -160,6 +194,13 @@ var b = 2
 a = b // a will have the value 2. The original value of a is lost
 b = a // b will remain the same
 ```
+The answer: 
+var a = 2
+var b = 1
+let aDontChange = a
+
+a = b
+b = aDontChange
 
 ***
 ## 8. You are given a number a. Print the last digit of a.
@@ -187,6 +228,11 @@ Remember that a = k * (a / k) + a % k
 Can you think of a value for k that gives the last digit?
 
 ```
+The answer
+var a = 123
+var x = a%10
+print(x)
+
 
 ***
 ## 9. You are given Rocky’s age in dog years. Print Rocky’s age in human years. You know that 1 human year is 7 dog years.
@@ -201,6 +247,14 @@ Output:
 7
 
 ```
+The answer
+var dogYears = 7
+
+
+var rockysAge = 50
+
+var humanYears = rockysAge / dogYears
+
 
 ***
 ## 10. Everyone hates solving word problems by hand so let’s make a program to solve them for us. 
@@ -236,6 +290,12 @@ alice + x = y * (bob + x)
 Solve for alice
 
 ```
+The answer: 
+var x = 1
+var y = 3
+var bob = 12
+
+var alice = y * (bob + x) - x
 
 ***
 ## 11. You have x apples. Bob trades 3 oranges for 5 apples. He does not accept trades with cut fruit. How many oranges can you get from Bob and how many apples will you have left? The number of apples you will have left should be stored in a variable named apples. The number of oranges you will have after the trade should be stored in a variable named oranges.
@@ -263,7 +323,11 @@ Hint:
 Use the division(/) and the remainder(%) operator
 
 ```
+Tha answer: 
+var x = 25
+var remainderOfApples = x%5
 
+var oranges = (25/5)*3
 ***
 ## 12. A class consists of numberOfBoys boys and numberOfGirls girls.
 ### Print the percentage of boys in the class followed by the percentage of girls in the class. The percentage should be printed rounded down to the nearest integer. For example 33.333333333333 will be printed as 33.
@@ -282,6 +346,16 @@ Output:
 75 // percentage of girls
 
 ```
+The answer:
+var numberOfBoys: Double = 20
+var numberOfGirls: Double = 60
+
+var pBoys = numberOfBoys / (numberOfBoys + numberOfGirls) * 100
+
+var pGirls = numberOfGirls / ( numberOfBoys + numberOfGirls) * 100
+print(pBoys)
+
+print(pGirls)
 
 ***
 ## 13.Which of the following expressions evaluate to true?
@@ -294,6 +368,8 @@ d. !!!true
 e. !(true && true)
 
 ```
+The Answer: 
+a., &  c. 
 
 ***
 ## 14.Which of the following expressions evaluate to true?
@@ -306,4 +382,7 @@ d. 19.0 >= 19.0
 e. 9 > 7 && 7 < 10
 
 ```
+The answer: 
+c. , d., e.
+
 
