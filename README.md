@@ -122,7 +122,8 @@ Consider a 5x3 screen like this:
 
 The number of pixels on this screen is 5+5+5 = 5*3
 ```
-```var width = 1920
+```
+var width = 1920
 var height = 1080
 var numberOfPixels = width * height
 print(numberOfPixels)
@@ -158,7 +159,8 @@ sum + diff = a + a + b - b
 sum + diff = 2 * a
 ```
 
-```var sum = 16
+```
+var sum = 16
 var diff = 4
 
 var a1 = 10
