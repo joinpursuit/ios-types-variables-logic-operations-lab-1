@@ -25,6 +25,15 @@ d. let whiteHouseAddress: Int + String = 1600 + "Pennsylvania Ave"
 
 e. var peopleAtParty: Double = "95"
 ```
+Answer
+```swift
+var a = 1
+
+var b = 2
+
+var sum = (a + b)
+
+print(sum)
 
 ***
 ## 2. Boolean Evaluations 1
