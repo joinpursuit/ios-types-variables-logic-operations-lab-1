@@ -21,7 +21,13 @@ c. var isSummer: String = false
 d. let whiteHouseAddress: Int + String = 1600 + "Pennsylvania Ave"
 
 e. var peopleAtParty: Double = "95"
+
+
+
+
+//// Answer: all of the above are declared incorrectly!
 ```
+
 
 ***
 ## 2. Which of the following expressions evaluate to true?
@@ -36,6 +42,9 @@ c. (3 < 2 || (0 < 1 && 3 >= 3)) && true
 d. !!(!!true && !!false)
 
 e. true && (true && (true && (true || false)))
+
+
+//// Answer: C , E .
 ```
 
 ***
@@ -61,6 +70,14 @@ occasional \() by late afternoon. Wind velocity will
 be \() miles an hour, and the high temperature should
 be around \() degrees. So, if you're going out, you had
 better plan on wearing your \()".
+
+
+//// Answer in Code: var madLib = "Here is tomorrow's weather report for \(geographicLocation) and vicinity. Early tomorrow, a \(adjective1)-front will collide with a mass of hot \(pluralNoun1) moving from the north. This means we can expect \(adjective2) winds and occasional \(pluralNoun2) by late afternoon. Wind velocity will be \(number1) miles an hour, and the high temperature should be around \(number2) degrees. So, if you're going out, you had better plan on wearing your \(articleOfClothing)"
+print("Welcome to Tiffany's Weather Channel. \(madLib)")
+
+////Answer in print:Welcome to Tiffany's Weather Channel. Here is tomorrow's weather report for Brooklyn NY and vicinity. Early tomorrow, a cool-front will collide with a mass of hot sun showers moving from the north. This means we can expect strong winds and occasional showers by late afternoon. Wind velocity will be 15 miles an hour, and the high temperature should be around 70 degrees. So, if you're going out, you had better plan on wearing your hoodie
+
+YAY I DID IT!!!! lol 
 ```
 
 ***
@@ -79,6 +96,17 @@ sum = 3
 Output: 
 3
 
+//// Answer in Code:
+var a = 1
+var b = 2
+var sum = a + b
+print("the answser is \(sum)")
+
+//// Answer in print: 
+the answser is 3
+
+
+
 Example 2
 Input:
 var a = 13
@@ -89,6 +117,15 @@ sum = 35
 
 Output:
 35
+
+//// Ansswer in code:
+var a = 13
+var b = 22
+var sum = a + b
+print("the answser is \(sum)")
+
+//// Answer in print:
+the answser is 35
 ```
 
 ***
@@ -99,14 +136,26 @@ Hint:
 The number of seconds in a year is 365 times the number of seconds in a day.
 The number of seconds in a day is 24 times the number of seconds in a hour.
 The number of seconds in a hour is 60 times the number of seconds in a minute, which is 60.
+
+//// Answer: 
+
+var secondsInAYear = 60 * 60 * 24 * 365 
+
+let min = 60
+let hour = 60 
+let day = 24
+let year = 365
+
+var secondsInAYear = min * hour * day * year 
+
+var secondsInAYear = 31,536,000
 ```
 
 ***
 ## 6. Your are given the width and height of a screen in pixels. Calculate the total number of pixels on the screen and store the result in a variable named numberOfPixels.
 
 ```swift
-var width = 1920 
-var height = 1080
+
 
 Example 1
 Input: 
@@ -116,6 +165,19 @@ var height = 3
 Expected values:
 numberOfPixels = 12
 
+
+////Answer:
+
+var width = 4
+var height = 3
+
+var numberOfPixels = width * height 
+
+////or
+
+var numberOfPixels = 12
+
+
 Example 2
 Input:
 var width = 1920
@@ -124,6 +186,20 @@ var height = 1080
 Expected values:
 numberOfPixels = 2073600
 
+////Answer:
+
+var width = 1920
+var height = 1080
+
+var numberOfPixels = width * height
+
+or 
+
+var numberOfPixels = 2073600
+
+
+
+
 Hint:
 Consider a 5x3 screen like this:
 *****
@@ -131,6 +207,8 @@ Consider a 5x3 screen like this:
 *****
 
 The number of pixels on this screen is 5+5+5 = 5*3
+
+
 ```
 
 ***
@@ -149,6 +227,10 @@ Expected values:
 a = 10
 b = 6
 
+
+///// Answer: var a = (diff + sum)/2
+              var b = a - diff  
+
 Example 2
 Input:
 var sum = 2 
@@ -157,6 +239,8 @@ var dif = 0
 Expected values:
 a = 1
 b = 1
+////// Answer: var a = (sum + diff)/2
+               var b = sum - a 
 
 Hint:
 sum + diff = a + a + b - b
