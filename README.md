@@ -22,6 +22,10 @@ d. let whiteHouseAddress: Int + String = 1600 + "Pennsylvania Ave"
 
 e. var peopleAtParty: Double = "95"
 ```
+Answer
+```
+D , E
+```
 
 ***
 ## 2. Which of the following expressions evaluate to true?
@@ -36,6 +40,10 @@ c. (3 < 2 || (0 < 1 && 3 >= 3)) && true
 d. !!(!!true && !!false)
 
 e. true && (true && (true && (true || false)))
+```
+Answer
+```
+A , B
 ```
 
 ***
@@ -66,6 +74,13 @@ sum = 35
 Output:
 35
 ```
+Answer
+```
+var a = 1
+var b = 10000
+sum = a + b
+print(sum)
+```
 
 ***
 ## 4.Determine the number of seconds in a year and store the number in a variable named secondsInAYear.
@@ -75,6 +90,11 @@ Hint:
 The number of seconds in a year is 365 times the number of seconds in a day.
 The number of seconds in a day is 24 times the number of seconds in a hour.
 The number of seconds in a hour is 60 times the number of seconds in a minute, which is 60.
+```
+Answer
+```
+var a = 60
+var secondsInAYear = (a*60)*24*365
 ```
 
 ***
@@ -108,6 +128,12 @@ Consider a 5x3 screen like this:
 
 The number of pixels on this screen is 5+5+5 = 5*3
 ```
+Answer
+```
+var width = 1920
+var height = 1080
+numberOfPixels = width * height
+```
 
 ***
 ## 6. You are given the sum and the difference of two numbers. Find out the values of the original numbers and store them in variables a and b.
@@ -138,6 +164,17 @@ Hint:
 sum + diff = a + a + b - b
 sum + diff = 2 * a
 ```
+Answer
+```
+let sum = 16 
+let diff = 4
+
+var a = 10 
+var b = 6
+
+var answerOne = a + a + b - b
+var answerTwo = 2 * a
+```
 
 ***
 ## 7. Given two variable a and b, swap their values. That is the new value of a will become the old value of b and vice versa.
@@ -159,6 +196,14 @@ var b = 2
 
 a = b // a will have the value 2. The original value of a is lost
 b = a // b will remain the same
+```
+Answer
+```
+var a = 1
+var b = 2
+
+b = b - a
+a = a + a
 ```
 
 ***
@@ -187,6 +232,10 @@ Remember that a = k * (a / k) + a % k
 Can you think of a value for k that gives the last digit?
 
 ```
+Answer 
+```
+print(a % 10)
+```
 
 ***
 ## 9. You are given Rocky’s age in dog years. Print Rocky’s age in human years. You know that 1 human year is 7 dog years.
@@ -200,6 +249,12 @@ var rockysAge = 50
 Output:
 7
 
+```
+Answer
+```
+var rockeysAge = 50
+var rockeysHumanAge = 50 / 7
+print(rockysHumanAge)
 ```
 
 ***
@@ -236,6 +291,19 @@ alice + x = y * (bob + x)
 Solve for alice
 
 ```
+Answer
+```
+var x = 1
+var y = 3
+var bob = 12
+
+//Expected values:
+//alice = 38
+
+var aliceAge = 3 * (12 + 1) - 1
+print("Alice is \(aliceAge) years old")
+Alice is 38 years old
+```
 
 ***
 ## 11. You have x apples. Bob trades 3 oranges for 5 apples. He does not accept trades with cut fruit. How many oranges can you get from Bob and how many apples will you have left? The number of apples you will have left should be stored in a variable named apples. The number of oranges you will have after the trade should be stored in a variable named oranges.
@@ -263,6 +331,14 @@ Hint:
 Use the division(/) and the remainder(%) operator
 
 ```
+Answer
+```
+var x = 17.0
+var y = 9.0
+
+var applesLeftover = x / y
+var orangesIHave = x % y
+```
 
 ***
 ## 12. A class consists of numberOfBoys boys and numberOfGirls girls.
@@ -282,6 +358,11 @@ Output:
 75 // percentage of girls
 
 ```
+Answer
+```
+print("Percentage of boys is 25%")
+print("Percentage of girls is 75%")
+```
 
 ***
 ## 13.Which of the following expressions evaluate to true?
@@ -294,6 +375,10 @@ d. !!!true
 e. !(true && true)
 
 ```
+Answer
+```
+A , C
+```
 
 ***
 ## 14.Which of the following expressions evaluate to true?
@@ -305,5 +390,9 @@ c. "Hello!" == "Hello!"
 d. 19.0 >= 19.0
 e. 9 > 7 && 7 < 10
 
+```
+Answer
+```
+A, C, D, E
 ```
 
