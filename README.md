@@ -81,6 +81,7 @@ THE ANSWER IS
 var a = 1
 
 var b = 2
+
 var sum = a + b
 
 print(sum)
@@ -97,9 +98,13 @@ The number of seconds in a hour is 60 times the number of seconds in a minute, w
 ```
 
 THE ANSWER IS
+
 var SecondsInMinute = 60
+
 var SecondsInHour = SecondsInMinute * 60
+
 var SecondsInDay = SecondsInHour * 24
+
 var secondsInAYear = SecondsInDay * 365
 
 
@@ -138,7 +143,9 @@ The number of pixels on this screen is 5+5+5 = 5*3
 THE ANSWER IS
 
 var width = 1
+
 var height = 2
+
 var numberOfPixels = width * height
 
 
@@ -175,9 +182,12 @@ sum + diff = 2 * a
 THE ANSWER IS
 
 var sum = 2
+
 var dif = 0
 
+
 var a = (sum + dif ) / 2
+
 var b = a - dif
 
 ***
@@ -204,10 +214,13 @@ b = a // b will remain the same
 THE ANSWER IS
 
 var a = 2
+
 var b = 1
+
 let aDontChange = a
 
 a = b
+
 b = aDontChange
 
 ***
@@ -240,7 +253,9 @@ Can you think of a value for k that gives the last digit?
 THE ANSWER IS
 
 var a = 1234
+
 var lastN = a%10
+
 print(lastN)
 
 
@@ -261,7 +276,9 @@ Output:
 THE ANSWER IS
 
 var rockysAge = 64
+
 var hYear = rockysAge / 7
+
 print("rocky is \(rockysAge) in dog years, rocky is \(hYear) in human years")
 
 
@@ -303,11 +320,15 @@ Solve for alice
 THE ANSWER IS
 
 var x = 1
+
 var y = 3
+
 var bob = 12
+
 var alice = 0
 
 alice = (y * (bob + x)) - x
+
 print(alice) 
 
 ***
@@ -340,9 +361,13 @@ Use the division(/) and the remainder(%) operator
 THE ANSWER IS
 
 var input = 25
+
 var BOT = input / 5
+
 var oranges = BOT * 3
+
 var apples = input % 5
+
 print("you have \(apples) apples left and \(oranges) oranges after starting with \(input) apples" )
 
 
@@ -368,11 +393,17 @@ Output:
 THE ANSWER IS 
 
 var numberOfBoys: Double = 20
+
 var numberOfGirls: Double = 60
+
 var total = numberOfBoys + numberOfGirls
+
 var dofb = numberOfBoys / total
+
 var dofg = numberOfGirls / total
+
 var pofb = dofb * 100
+
 var pofg = dofg * 100
 
 
@@ -390,6 +421,7 @@ e. !(true && true)
 
 
 THE ANSWER IS 
+
 A and C 
 
 ***
@@ -404,5 +436,6 @@ e. 9 > 7 && 7 < 10
 
 ```
 THE ANSWER IS 
+
 C, D AND E
 
