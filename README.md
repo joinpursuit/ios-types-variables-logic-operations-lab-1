@@ -326,6 +326,7 @@ var y = 2
 var bob = 12
 
 var alice = y * (bob + x) - x
+print(alice)
 
 Example 2
 var x = 1
@@ -333,6 +334,7 @@ var y = 3
 var bob = 12
 
 var alice = y * (bob + x) - x
+print(alice)
 ```
 ***
 ## 11. You have x apples. Bob trades 3 oranges for 5 apples. He does not accept trades with cut fruit. How many oranges can you get from Bob and how many apples will you have left? The number of apples you will have left should be stored in a variable named apples. The number of oranges you will have after the trade should be stored in a variable named oranges.
@@ -360,7 +362,20 @@ Hint:
 Use the division(/) and the remainder(%) operator
 
 ```
+# ANSWER
+```swift
+Example 1
+var apples = 17
 
+var oranges = (apples / 5) * 3
+var applesLeft = apples % 5
+
+Example 2
+var apples = 25
+
+var oranges = (apples / 5) * 3
+var applesLeft = apples % 5
+```
 ***
 ## 12. A class consists of numberOfBoys boys and numberOfGirls girls.
 ### Print the percentage of boys in the class followed by the percentage of girls in the class. The percentage should be printed rounded down to the nearest integer. For example 33.333333333333 will be printed as 33.
@@ -379,7 +394,20 @@ Output:
 75 // percentage of girls
 
 ```
+# ANSWER
+```swift
+var numberOfBoys: Double = 20
+var numberOfGirls: Double = 60
 
+var classSize: Double = numberOfBoys + numberOfGirls
+
+var percentBoys: Double = (numberOfBoys / classSize) * 100
+var percentGirls: Double = (numberOfGirls / classSize) * 100
+
+print(round(percentBoys))
+print(round(percentGirls))
+
+```
 ***
 ## 13.Which of the following expressions evaluate to true?
 
@@ -391,6 +419,7 @@ d. !!!true
 e. !(true && true)
 
 ```
+# ANSWER is A and C
 
 ***
 ## 14.Which of the following expressions evaluate to true?
@@ -403,4 +432,4 @@ d. 19.0 >= 19.0
 e. 9 > 7 && 7 < 10
 
 ```
-
+# ANSWER is C, D and E
