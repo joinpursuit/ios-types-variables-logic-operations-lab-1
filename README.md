@@ -135,7 +135,20 @@ Consider a 5x3 screen like this:
 
 The number of pixels on this screen is 5+5+5 = 5*3
 ```
+# ANSWER
+```swift
+Example 1
+var width = 4
+var height = 3
 
+var numberOfPixels = width * height
+
+Example 2
+var width = 1920
+var height = 1080
+
+var numberOfPixels = width * height
+```
 ***
 ## 6. You are given the sum and the difference of two numbers. Find out the values of the original numbers and store them in variables a and b.
 
@@ -165,7 +178,20 @@ Hint:
 sum + diff = a + a + b - b
 sum + diff = 2 * a
 ```
+# ANSWER
+```swift
+Example 1
+var sum = 16
+var dif = 4
+var a = (sum + dif) / 2
+var b = sum - a
 
+Example 2
+var sum = 2
+var dif =0
+var a = (sum + dif) / 2
+var b = sum - a
+```
 ***
 ## 7. Given two variable a and b, swap their values. That is the new value of a will become the old value of b and vice versa.
 
