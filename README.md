@@ -21,6 +21,9 @@ c. var isSummer: String = false
 d. let whiteHouseAddress: Int + String = 1600 + "Pennsylvania Ave"
 
 e. var peopleAtParty: Double = "95"
+
+answer: 
+None of the Above 
 ```
 
 ***
@@ -36,6 +39,9 @@ c. (3 < 2 || (0 < 1 && 3 >= 3)) && true
 d. !!(!!true && !!false)
 
 e. true && (true && (true && (true || false)))
+
+answer: 
+C, E
 ```
 
 ***
@@ -65,6 +71,10 @@ sum = 35
 
 Output:
 35
+
+answer: 
+let sum = a + b
+print(sum)
 ```
 
 ***
@@ -75,6 +85,9 @@ Hint:
 The number of seconds in a year is 365 times the number of seconds in a day.
 The number of seconds in a day is 24 times the number of seconds in a hour.
 The number of seconds in a hour is 60 times the number of seconds in a minute, which is 60.
+
+answer:
+var secondsInAYear = 60 * 60 * 24 * 365
 ```
 
 ***
@@ -107,6 +120,9 @@ Consider a 5x3 screen like this:
 *****
 
 The number of pixels on this screen is 5+5+5 = 5*3
+
+answer: 
+let numberOfPixels = width * height
 ```
 
 ***
@@ -137,6 +153,10 @@ b = 1
 Hint:
 sum + diff = a + a + b - b
 sum + diff = 2 * a
+
+answer:
+let a = (sum + diff) / 2
+let b = sum - a
 ```
 
 ***
@@ -159,6 +179,14 @@ var b = 2
 
 a = b // a will have the value 2. The original value of a is lost
 b = a // b will remain the same
+
+answer: 
+var a = 1
+var b = 2
+var exampleA = a
+var exampleB = b
+a = exampleB
+b = exampleA
 ```
 
 ***
@@ -186,6 +214,8 @@ Use the remainder % operator.
 Remember that a = k * (a / k) + a % k
 Can you think of a value for k that gives the last digit?
 
+answer: 
+print(a % 10)
 ```
 
 ***
@@ -200,6 +230,8 @@ var rockysAge = 50
 Output:
 7
 
+answer: 
+print(rockysAge/7)
 ```
 
 ***
@@ -213,6 +245,7 @@ var bob = 12
 
 var alice = ?
 
+
 Example 1
 Input: 
 var x = 3
@@ -221,6 +254,7 @@ var bob = 12
 
 Expected values: 
 alice = 27
+
 
 Example 2
 Input: 
@@ -235,6 +269,8 @@ Hint:
 alice + x = y * (bob + x)
 Solve for alice
 
+answer: 
+var alice = (y * (bob + x)) - x
 ```
 
 ***
@@ -262,6 +298,9 @@ oranges = 15
 Hint:
 Use the division(/) and the remainder(%) operator
 
+answer: 
+var apples = b % 5
+var oranges = (b / 5) * 3
 ```
 
 ***
@@ -281,6 +320,14 @@ Output:
 25 // percentage of boys
 75 // percentage of girls
 
+answer:
+let numberOfBoys:Double = 20
+let numberOfGirls:Double = 60
+let total = numberOfBoys + numberOfGirls
+var percentageOfBoys = Int((numberOfBoys / total) * 100)
+var percentageOfGirls = Int((numberOfGirls / total) * 100)
+print(percentageOfBoys)
+print(percentageOfGirls)
 ```
 
 ***
@@ -293,6 +340,8 @@ c. !false
 d. !!!true
 e. !(true && true)
 
+answer: 
+A, C
 ```
 
 ***
@@ -305,5 +354,7 @@ c. "Hello!" == "Hello!"
 d. 19.0 >= 19.0
 e. 9 > 7 && 7 < 10
 
+answer: 
+C, D, E
 ```
 
