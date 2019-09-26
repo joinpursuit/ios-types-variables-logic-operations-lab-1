@@ -22,7 +22,7 @@ d. let whiteHouseAddress: Int + String = 1600 + "Pennsylvania Ave"
 
 e. var peopleAtParty: Double = "95"
 ```
-## Answer: 
+## Answer: None of the above
 **
 ## 2. Which of the following expressions evaluate to true?
 
@@ -37,7 +37,7 @@ d. !!(!!true && !!false)
 
 e. true && (true && (true && (true || false)))
 ```
-## Answer:
+## Answer: c, e, 
 ***
 
 ## 3. You are given two variables a and b, compute their sum and store it in another variable named sum then print the result.
@@ -67,6 +67,14 @@ Output:
 35
 ```
 ## Answer: 
+Input:
+var a = 4
+var b = 6
+var sum = a + b
+
+Expected values: 10
+
+output: 10
 ***
 ## 4.Determine the number of seconds in a year and store the number in a variable named secondsInAYear.
 
@@ -76,7 +84,7 @@ The number of seconds in a year is 365 times the number of seconds in a day.
 The number of seconds in a day is 24 times the number of seconds in a hour.
 The number of seconds in a hour is 60 times the number of seconds in a minute, which is 60.
 ```
-
+## Answer: 
 ***
 ## 5. Your are given the width and height of a screen in pixels. Calculate the total number of pixels on the screen and store the result in a variable named numberOfPixels.
 
@@ -108,7 +116,8 @@ Consider a 5x3 screen like this:
 
 The number of pixels on this screen is 5+5+5 = 5*3
 ```
-## Answer
+## Answer:
+
 ***
 ## 6. You are given the sum and the difference of two numbers. Find out the values of the original numbers and store them in variables a and b.
 
@@ -294,7 +303,7 @@ d. !!!true
 e. !(true && true)
 
 ```
-## Answer: 
+## Answer: a, c, 
 ***
 ## 14.Which of the following expressions evaluate to true?
 
@@ -307,4 +316,4 @@ e. 9 > 7 && 7 < 10
 
 ```
 
-## Answer: 
+## Answer: a, c, d, e
