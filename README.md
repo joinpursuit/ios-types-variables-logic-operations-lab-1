@@ -357,6 +357,8 @@ Output:
 
 ```
 ```
+var numberOfGirls: Double = 20
+var numberOfBoys: Double = 60
 var total = numberOfBoys + numberOfGirls
 var percentageOfBoys = Int((numberOfBoys/total) * 100)
 var percentageOfGirls = Int((numberOfGirls/total) * 100)
