@@ -250,6 +250,19 @@ Remember that a = k * (a / k) + a % k
 Can you think of a value for k that gives the last digit?
 
 ```
+# ANSWER
+```swift
+Example 1
+var a = 123
+var lastDigit = a % 10
+lastDigit
+
+Example 2
+var a = 337
+var lastDigit = a % 10
+lastDigit
+
+```
 
 ***
 ## 9. You are given Rocky’s age in dog years. Print Rocky’s age in human years. You know that 1 human year is 7 dog years.
