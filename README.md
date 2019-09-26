@@ -68,7 +68,24 @@ sum = 35
 Output:
 35
 ```
+# ANSWER Example 1
+```swift
 
+var a = 1
+var b = 2
+var sum = a + b
+
+print(sum)
+```
+# ANSWER Example 2
+```swift
+
+var a = 13
+var b = 22
+var sum = a + b
+
+print(sum)
+```
 ***
 ## 4.Determine the number of seconds in a year and store the number in a variable named secondsInAYear.
 
