@@ -245,8 +245,8 @@ Output:
 7
 
 ```
-```swift
 In example 1, insert the following code under line 231:
+```swift
 var rockyHumAge = rockysAge / 7
 print(rockyHumAge)
 ```
