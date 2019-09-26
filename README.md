@@ -277,6 +277,12 @@ Output:
 7
 
 ```
+# ANSWER
+```swift
+var rockysAge = 50
+var dogYears = rockysAge / 7
+dogYears
+```
 
 ***
 ## 10. Everyone hates solving word problems by hand so let’s make a program to solve them for us. 
