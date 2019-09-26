@@ -126,6 +126,14 @@ Consider a 5x3 screen like this:
 
 The number of pixels on this screen is 5+5+5 = 5*3
 ```
+```
+Answer: 
+var width = 1920
+var height = 1080
+
+var numberOfPixels = width * height
+print(numberOfPixels)
+```
 
 ***
 ## 6. You are given the sum and the difference of two numbers. Find out the values of the original numbers and store them in variables a and b.
@@ -156,7 +164,14 @@ Hint:
 sum + diff = a + a + b - b
 sum + diff = 2 * a
 ```
+```
+Answer:
+let sum = 16 // a + b
+let diff = 4 // a - b
+var a = (sum + diff)/2
+var b = sum - a
 
+```
 ***
 ## 7. Given two variable a and b, swap their values. That is the new value of a will become the old value of b and vice versa.
 
@@ -177,6 +192,15 @@ var b = 2
 
 a = b // a will have the value 2. The original value of a is lost
 b = a // b will remain the same
+```
+```
+Answer: 
+var a = 1
+var b = 2
+
+var temp = a
+a = b
+b = temp
 ```
 
 ***
@@ -205,6 +229,12 @@ Remember that a = k * (a / k) + a % k
 Can you think of a value for k that gives the last digit?
 
 ```
+```
+Answer:
+var a = 123
+var lastDigit = a%10
+print(lastDigit)
+```
 
 ***
 ## 9. You are given Rocky’s age in dog years. Print Rocky’s age in human years. You know that 1 human year is 7 dog years.
@@ -218,6 +248,12 @@ var rockysAge = 50
 Output:
 7
 
+```
+```
+Answer: 
+var rockysAge = 50
+var inHumanYears = rockysAge/7
+print(inHumanYears)
 ```
 
 ***
@@ -254,6 +290,10 @@ alice + x = y * (bob + x)
 Solve for alice
 
 ```
+```
+Answer:
+var alice = ((x + bob) * y) - x
+```
 
 ***
 ## 11. You have x apples. Bob trades 3 oranges for 5 apples. He does not accept trades with cut fruit. How many oranges can you get from Bob and how many apples will you have left? The number of apples you will have left should be stored in a variable named apples. The number of oranges you will have after the trade should be stored in a variable named oranges.
@@ -281,6 +321,13 @@ Hint:
 Use the division(/) and the remainder(%) operator
 
 ```
+```
+Answer:
+var x = 17
+
+var apples = x % 5
+var oranges = (x / 5) * 3
+```
 
 ***
 ## 12. A class consists of numberOfBoys boys and numberOfGirls girls.
@@ -300,6 +347,20 @@ Output:
 75 // percentage of girls
 
 ```
+```
+Answer:
+var numberOfBoys: Double = 20
+var numberOfGirls: Double = 60
+
+var numOfStudents: Double = numberOfBoys + numberOfGirls
+
+var percentageOfBoys: Double = (numberOfBoys/numOfStudents) * 100
+var percentageOfGirls: Double = (numberOfGirls/numOfStudents) * 100
+
+
+print("Percentage Of Boys: \(round(percentageOfBoys))")
+print("Percentage Of Girls: \(round(percentageOfGirls))")
+```
 
 ***
 ## 13.Which of the following expressions evaluate to true?
@@ -311,6 +372,9 @@ c. !false
 d. !!!true
 e. !(true && true)
 
+```
+```
+Answer: A & C
 ```
 
 ***
@@ -324,4 +388,6 @@ d. 19.0 >= 19.0
 e. 9 > 7 && 7 < 10
 
 ```
-
+```
+Answer: C, D & E
+```
