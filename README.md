@@ -25,6 +25,7 @@ d. let whiteHouseAddress: Int + String = 1600 + "Pennsylvania Ave"
 
 e. var peopleAtParty: Double = "95"
 ```
+# ANSWER: NONE OF THE ABOVE ARE TRUE
 
 ***
 ## 2. Boolean Evaluations 1
@@ -42,6 +43,7 @@ d. !!(!!true && !!false)
 
 e. true && (true && (true && (true || false)))
 ```
+# ANSWER: C and E
 
 ***
 
@@ -73,7 +75,24 @@ sum = 35
 Output:
 35
 ```
+# ANSWER Example 1
+```swift
 
+var a = 1
+var b = 2
+let sum = a + b
+
+print(sum)
+```
+# ANSWER Example 2
+```swift
+
+var a = 13
+var b = 22
+let sum = a + b
+
+print(sum)
+```
 ***
 ## 4. Seconds in Year
 
@@ -85,7 +104,15 @@ The number of seconds in a year is 365 times the number of seconds in a day.
 The number of seconds in a day is 24 times the number of seconds in a hour.
 The number of seconds in a hour is 60 times the number of seconds in a minute, which is 60.
 ```
+# ANSWER
+```swift
+let secInMin = 60
+let secInHour = secInMin * 60
+let secInDay = secInHour * 24
+let secInYear = secInDay * 365
 
+print(secInYear)
+```
 ***
 ## 5. Number of Pixels
 
@@ -119,7 +146,20 @@ Consider a 5x3 screen like this:
 
 The number of pixels on this screen is 5+5+5 = 5*3
 ```
+# ANSWER
+```swift
+Example 1
+var width = 4
+var height = 3
 
+var numberOfPixels = width * height
+
+Example 2
+var width = 1920
+var height = 1080
+
+var numberOfPixels = width * height
+```
 ***
 ## 6. Sum and Difference
 
@@ -151,7 +191,20 @@ Hint:
 sum + diff = a + a + b - b
 sum + diff = 2 * a
 ```
+# ANSWER
+```swift
+Example 1
+var sum = 16
+var dif = 4
+var a = (sum + dif) / 2
+var b = sum - a
 
+Example 2
+var sum = 2
+var dif =0
+var a = (sum + dif) / 2
+var b = sum - a
+```
 ***
 ## 7. Swap Values
 
@@ -175,7 +228,17 @@ var b = 2
 a = b // a will have the value 2. The original value of a is lost
 b = a // b will remain the same
 ```
-
+# ANSWER
+```swift
+Example 1
+var a = 1
+var b = 2
+a = a + b
+b = a - b
+a = a - b
+a
+b
+```
 ***
 ## 8. Find last number
 
@@ -201,6 +264,19 @@ Output:
 Hint:
 Use the remainder % operator.
 ```
+# ANSWER
+```swift
+Example 1
+var a = 123
+var lastDigit = a % 10
+lastDigit
+
+Example 2
+var a = 337
+var lastDigit = a % 10
+lastDigit
+
+```
 
 ***
 ## 9. Dog Years
@@ -216,6 +292,12 @@ var rockysAgeInDogYears = 50
 Output:
 7
 
+```
+# ANSWER
+```swift
+var rockysAge = 50
+var dogYears = rockysAge / 7
+dogYears
 ```
 
 ***
@@ -253,7 +335,24 @@ alice + x = y * (bob + x)
 Solve for alice
 
 ```
+# ANSWER
+```swift
+Example 1
+var x = 3
+var y = 2
+var bob = 12
 
+var alice = y * (bob + x) - x
+print(alice)
+
+Example 2
+var x = 1
+var y = 3
+var bob = 12
+
+var alice = y * (bob + x) - x
+print(alice)
+```
 ***
 ## 11. Trading Oranges for Apples
 
@@ -282,7 +381,20 @@ Hint:
 Use the division(/) and the remainder(%) operator
 
 ```
+# ANSWER
+```swift
+Example 1
+var apples = 17
 
+var oranges = (apples / 5) * 3
+var applesLeft = apples % 5
+
+Example 2
+var apples = 25
+
+var oranges = (apples / 5) * 3
+var applesLeft = apples % 5
+```
 ***
 ## 12. Boy and Girl Percentages
 
@@ -304,7 +416,20 @@ Output:
 75 // percentage of girls
 
 ```
+# ANSWER
+```swift
+var numberOfBoys: Double = 20
+var numberOfGirls: Double = 60
 
+var classSize: Double = numberOfBoys + numberOfGirls
+
+var percentBoys: Double = (numberOfBoys / classSize) * 100
+var percentGirls: Double = (numberOfGirls / classSize) * 100
+
+print(round(percentBoys))
+print(round(percentGirls))
+
+```
 ***
 ## 13. Boolean Evaluations 2
 
@@ -318,6 +443,7 @@ d. !!!true
 e. !(true && true)
 
 ```
+# ANSWER is A and C
 
 ***
 ## 14. Boolean Evaluations 3
@@ -332,4 +458,4 @@ d. 19.0 >= 19.0
 e. 9 > 7 && 7 < 10
 
 ```
-
+# ANSWER is C, D and E
