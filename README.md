@@ -53,15 +53,7 @@ e. true && (true && (true && (true || false)))
 ```
 Answer
 ```swift
-let secHours = 60 * 60
-
-let secDays = secHours * 24
-
-let secYears = secDays * 365
-
-print(secYears)
-
-
+C + E are true
 ***
 
 ## 3. Sum
@@ -91,6 +83,16 @@ sum = 35
 
 Output:
 35
+```
+Answer
+```swift
+var a = 1
+
+var b = 2
+
+var sum = (a + b)
+
+print(sum)
 ```
 
 ***
