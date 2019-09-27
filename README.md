@@ -370,7 +370,7 @@ e. !(true && true)
 ```
 ```
         
-A,         
+A,C,D         
 ```
 ***
 ## 14.Which of the following expressions evaluate to true?
@@ -383,4 +383,17 @@ d. 19.0 >= 19.0
 e. 9 > 7 && 7 < 10
 
 ```
+```
+C,D,E
+
+```
+
+
+
+
+
+
+
+
+
 
