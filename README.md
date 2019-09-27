@@ -96,14 +96,14 @@ sum = 3
 Output: 
 3
 
-//// Answer in Code:
-var a = 1
-var b = 2
-var sum = a + b
-print("the answser is \(sum)")
+        //// Answer in Code:
+                            var a = 1
+                            var b = 2
+                            var sum = a + b
+                            print("the answser is \(sum)")
 
-//// Answer in print: 
-the answser is 3
+        //// Answer in print: 
+        the answser is 3
 
 
 
@@ -118,14 +118,14 @@ sum = 35
 Output:
 35
 
-//// Ansswer in code:
-var a = 13
-var b = 22
-var sum = a + b
-print("the answser is \(sum)")
+        //// Ansswer in code:
+                            var a = 13
+                            var b = 22
+                            var sum = a + b
+                            print("the answser is \(sum)")
 
-//// Answer in print:
-the answser is 35
+        //// Answer in print:
+                            the answser is 35
 ```
 
 ***
@@ -137,18 +137,18 @@ The number of seconds in a year is 365 times the number of seconds in a day.
 The number of seconds in a day is 24 times the number of seconds in a hour.
 The number of seconds in a hour is 60 times the number of seconds in a minute, which is 60.
 
-//// Answer: 
+        //// Answer: 
 
-var secondsInAYear = 60 * 60 * 24 * 365 
+            var secondsInAYear = 60 * 60 * 24 * 365 
+ orrr
+                let min = 60
+                let hour = 60 
+                let day = 24
+                let year = 365
 
-let min = 60
-let hour = 60 
-let day = 24
-let year = 365
+            var secondsInAYear = min * hour * day * year 
 
-var secondsInAYear = min * hour * day * year 
-
-var secondsInAYear = 31,536,000
+            var secondsInAYear = 31,536,000
 ```
 
 ***
@@ -166,16 +166,16 @@ Expected values:
 numberOfPixels = 12
 
 
-////Answer:
+        ////Answer:
 
-var width = 4
-var height = 3
+            var width = 4
+            var height = 3
 
-var numberOfPixels = width * height 
+            var numberOfPixels = width * height 
 
 ////or
 
-var numberOfPixels = 12
+            var numberOfPixels = 12 
 
 
 Example 2
@@ -186,16 +186,16 @@ var height = 1080
 Expected values:
 numberOfPixels = 2073600
 
-////Answer:
+        ////Answer:
 
-var width = 1920
-var height = 1080
+                var width = 1920
+                var height = 1080
 
-var numberOfPixels = width * height
+                var numberOfPixels = width * height
 
 or 
 
-var numberOfPixels = 2073600
+                var numberOfPixels = 2073600
 
 
 
@@ -228,8 +228,8 @@ a = 10
 b = 6
 
 
-///// Answer: var a = (diff + sum)/2
-              var b = a - diff  
+            ///// Answer: var a = (diff + sum)/2
+                          var b = a - diff  
 
 Example 2
 Input:
@@ -239,8 +239,8 @@ var dif = 0
 Expected values:
 a = 1
 b = 1
-////// Answer: var a = (sum + diff)/2
-               var b = sum - a 
+            ////// Answer: var a = (sum + diff)/2
+                           var b = sum - a 
 
 Hint:
 sum + diff = a + a + b - b
@@ -267,6 +267,13 @@ var b = 2
 
 a = b // a will have the value 2. The original value of a is lost
 b = a // b will remain the same
+
+
+            //// Answer: var a = 1
+                         var b = 2
+                         var bb = 1
+             
+                in order to switch we make var a = b ; and var b = bb 
 ```
 
 ***
@@ -279,12 +286,26 @@ Example 1
 Input: 
 var a = 123
 
+                ///// Answer: 
+                var a = 123
+                var k = 10
+
+                var answer = a % k
+
+
 Output:
 3
 
 Example 2
 Input: 
 var a = 337
+
+                ///// Answer: 
+                var a = 337
+                var k = 10
+
+                var answer = a % k
+
 
 Output:
 7
@@ -305,6 +326,12 @@ Example 1
 Input: 
 var rockysAge = 50
 
+            //// Answer:
+                        var rockysAge = 50 
+                        var oneHumanYear = 7
+
+                        var rockyHumanYears: Int = rockysAge / oneHumanYear
+
 Output:
 7
 
@@ -315,11 +342,6 @@ Output:
 ### x years from now Alice will be y times older than her brother Bob. Bob is 12 years old. How many years does Alice have?
 
 ```swift
-var x = 3
-var y = 2
-var bob = 12
-
-var alice = ?
 
 Example 1
 Input: 
@@ -327,8 +349,12 @@ var x = 3
 var y = 2
 var bob = 12
 
+        ///// Answer = 
+                        var alice = y * (bob + x) - x
+
 Expected values: 
 alice = 27
+
 
 Example 2
 Input: 
@@ -339,6 +365,8 @@ var bob = 12
 Expected values: 
 alice = 38
 
+        ///// Answer =
+                        var alice = y * (bob + x) - x
 Hint:
 alice + x = y * (bob + x)
 Solve for alice
@@ -367,6 +395,9 @@ Expected values:
 apples = 0
 oranges = 15
 
+////Answer : var apples = x % 5
+                 oranges = (x/5) * 3
+
 Hint:
 Use the division(/) and the remainder(%) operator
 
@@ -385,6 +416,19 @@ Input:
 var numberOfBoys = 20  
 var numberOfGirls = 60
 
+                /////Answer:
+
+                var numberOfBoys = 20
+                var numberOfGirls = 60
+
+
+
+                var totalClass = numberOfBoys + numberOfGirls
+                var percentOfBoys = Int ((numberOfBoys * 10) / (totalClass / 10))
+                var percentOfGirls = Int ((numberOfGirls * 10) / (totalClass / 10))
+            
+        
+
 Output:
 25 // percentage of boys
 75 // percentage of girls
@@ -401,6 +445,8 @@ c. !false
 d. !!!true
 e. !(true && true)
 
+                /////Answer: A, C, 
+
 ```
 
 ***
@@ -413,5 +459,6 @@ c. "Hello!" == "Hello!"
 d. 19.0 >= 19.0
 e. 9 > 7 && 7 < 10
 
+                    ///// Answer A, C, D, E
 ```
 
