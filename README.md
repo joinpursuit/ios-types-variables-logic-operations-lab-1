@@ -410,6 +410,25 @@ Output:
 75 // percentage of girls
 
 ```
+Answer
+```swift
+
+var numberOfBoys = 20.0
+var numberOfGirls = 60.0
+
+var totalClassSize = (numberOfBoys + numberOfGirls)
+
+var percentageOfBoys = (numberOfBoys / totalClassSize)  * 100
+
+var percentageOfGirls = (numberOfGirls / totalClassSize) * 100
+
+Int(percentageOfBoys)
+
+Int(percentageOfGirls)
+
+// - Not sure how to print as Intergers. I want to figure that out
+
+```
 
 ***
 ## 13. Boolean Evaluations 2
