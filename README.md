@@ -25,6 +25,7 @@ d. let whiteHouseAddress: Int + String = 1600 + "Pennsylvania Ave"
 
 e. var peopleAtParty: Double = "95"
 ```
+Answer: None of them
 
 ***
 ## 2. Boolean Evaluations 1
@@ -42,7 +43,7 @@ d. !!(!!true && !!false)
 
 e. true && (true && (true && (true || false)))
 ```
-
+Answer: C and E
 ***
 
 ## 3. Sum
@@ -74,6 +75,14 @@ Output:
 35
 ```
 
+Answer:
+var a
+var b
+var sum = a + b
+print(sum)
+
+
+
 ***
 ## 4. Seconds in Year
 
@@ -85,6 +94,12 @@ The number of seconds in a year is 365 times the number of seconds in a day.
 The number of seconds in a day is 24 times the number of seconds in a hour.
 The number of seconds in a hour is 60 times the number of seconds in a minute, which is 60.
 ```
+Answer:
+let secondsInAMinute = 60
+let secondsInAnHour = secondsInAMinute * 60
+let secondsInADay = secondsInAnHour * 24
+let secondsInAYear = secondsInADay * 365
+print(secondsInAYear)
 
 ***
 ## 5. Number of Pixels
@@ -118,7 +133,12 @@ Consider a 5x3 screen like this:
 *****
 
 The number of pixels on this screen is 5+5+5 = 5*3
-```
+
+Answer:
+var width = 1920
+var height = 1080
+var numberOfPixels = width * height
+print(numberOfPixels)
 
 ***
 ## 6. Sum and Difference
@@ -150,7 +170,8 @@ b = 1
 Hint:
 sum + diff = a + a + b - b
 sum + diff = 2 * a
-```
+
+
 
 ***
 ## 7. Swap Values
@@ -174,7 +195,14 @@ var b = 2
 
 a = b // a will have the value 2. The original value of a is lost
 b = a // b will remain the same
-```
+
+Answer: 
+var a = 1
+var b = 2
+
+var i = a
+a = b
+b = i
 
 ***
 ## 8. Find last number
@@ -252,7 +280,13 @@ Hint:
 alice + x = y * (bob + x)
 Solve for alice
 
-```
+
+Answer:
+var x = 3
+var y = 2
+var bob = 12
+
+var alice = (bob + x) * y - x
 
 ***
 ## 11. Trading Oranges for Apples
@@ -281,7 +315,11 @@ oranges = 15
 Hint:
 Use the division(/) and the remainder(%) operator
 
-```
+Answer
+var x = 17
+
+var apples = x % 5
+var oranges = x / 5 * 3
 
 ***
 ## 12. Boy and Girl Percentages
@@ -303,7 +341,13 @@ Output:
 25 // percentage of boys
 75 // percentage of girls
 
-```
+var numberOfBoys = 20
+var numberOfGirls = 60
+var numberOfBoysAndGirls = numberOfBoys + numberOfGirls
+var percentOfBoys = numberOfBoys * 100 / numberOfBoysAndGirls
+print(percentOfBoys)
+var percentOfGirls = numberOfGirls * 100 / numberOfBoysAndGirls
+print(percentOfGirls)
 
 ***
 ## 13. Boolean Evaluations 2
@@ -317,7 +361,7 @@ c. !false
 d. !!!true
 e. !(true && true)
 
-```
+Answer a and c
 
 ***
 ## 14. Boolean Evaluations 3
@@ -331,5 +375,6 @@ c. "Hello!" == "Hello!"
 d. 19.0 >= 19.0
 e. 9 > 7 && 7 < 10
 
-```
+Answer 
+c,d,and e
 
