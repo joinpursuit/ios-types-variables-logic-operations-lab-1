@@ -25,6 +25,8 @@ d. let whiteHouseAddress: Int + String = 1600 + "Pennsylvania Ave"
 
 e. var peopleAtParty: Double = "95"
 ```
+none 
+```
 
 ***
 ## 2. Boolean Evaluations 1
@@ -42,7 +44,8 @@ d. !!(!!true && !!false)
 
 e. true && (true && (true && (true || false)))
 ```
-
+e
+```
 ***
 
 ## 3. Sum
@@ -73,12 +76,30 @@ sum = 35
 Output:
 35
 ```
+var a = 4
+var b = 6
 
+var sum = a + b 
+
+print( sum )
+
+
+```
 ***
 ## 4. Seconds in Year
 
 Determine the number of seconds in a year and store the number in a variable named secondsInAYear.
 
+```
+var daysInAYear = 365
+var hoursInADay = 24
+var secondInAMinute = 60
+var minutesInAHour = 60
+
+var secondsInAYear = daysInAYear * hoursInADay * secondInAMinute * minutesInAHour
+
+print( secondsInAYear)
+```
 ```swift
 Hint:
 The number of seconds in a year is 365 times the number of seconds in a day.
@@ -119,11 +140,29 @@ Consider a 5x3 screen like this:
 
 The number of pixels on this screen is 5+5+5 = 5*3
 ```
+var width = 1920
+var height = 1080
 
+var numberOfPixels = width * height
+print(numberOfPixels)
+```
 ***
 ## 6. Sum and Difference
 
 You are given the sum and the difference of two numbers. Find out the values of the original numbers and store them in variables a and b.
+
+write in code (how you would obtain  variable A and B if you were given the sum and difference of A and B   )
+
+// maybe add hint right under the question makes it a little more clear 
+
+Hint:
+
+dont forget var 
+
+sum + diff = a + a + b - b
+sum + diff = 2 * a
+```
+
 
 ```swift
 let sum = 16 // a + b 
@@ -147,10 +186,13 @@ Expected values:
 a = 1
 b = 1
 
-Hint:
-sum + diff = a + a + b - b
-sum + diff = 2 * a
 ```
+let sum = 16 // a + b
+let diff = 4 // a - b
+
+
+var a = (sum + diff)/2
+var b = ( sum - a )
 
 ***
 ## 7. Swap Values
@@ -175,6 +217,11 @@ var b = 2
 a = b // a will have the value 2. The original value of a is lost
 b = a // b will remain the same
 ```
+var a = 1
+var b = 2
+var c = a 
+var a = b
+var b = c
 
 ***
 ## 8. Find last number
@@ -199,8 +246,15 @@ Output:
 7
 
 Hint:
+
 Use the remainder % operator.
 ```
+var a = 123
+var k = a % 10
+
+
+//you need to create another var  
+
 
 ***
 ## 9. Dog Years
@@ -217,7 +271,10 @@ Output:
 7
 
 ```
-
+var rockysAge = 50
+var humanYears = 7
+var rockyHuman = rockysAge / humanYears
+  
 ***
 ## 10. Alice's Age
 
@@ -254,6 +311,10 @@ Solve for alice
 
 ```
 
+var alice = y * ( bob + x) - x
+print(alice)
+
+
 ***
 ## 11. Trading Oranges for Apples
 
@@ -283,6 +344,12 @@ Use the division(/) and the remainder(%) operator
 
 ```
 
+var x = 17
+ 
+var oranges = x / 5 * 3
+
+
+var apple = x % 5
 ***
 ## 12. Boy and Girl Percentages
 
@@ -304,6 +371,20 @@ Output:
 75 // percentage of girls
 
 ```
+var numberOfBoys = 20
+var numberOfGirls = 60
+
+var sumOfBG = numberOfBoys + numberOfGirls
+
+var percentG: Double = (Double(numberOfGirls)/Double(sumOfBG)) * 100
+var percentB: Double = (Double(numberOfBoys)/Double(sumOfBG)) * 100
+
+
+// this would not work though because the machine wont read the decimals unless its a double
+
+print("boys are \(percentB)% and girls and \(percentG)%")
+
+false || true
 
 ***
 ## 13. Boolean Evaluations 2
@@ -318,7 +399,8 @@ d. !!!true
 e. !(true && true)
 
 ```
-
+a
+c
 ***
 ## 14. Boolean Evaluations 3
 
@@ -332,4 +414,6 @@ d. 19.0 >= 19.0
 e. 9 > 7 && 7 < 10
 
 ```
-
+c
+d
+e
