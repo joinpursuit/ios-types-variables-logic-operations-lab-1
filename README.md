@@ -18,14 +18,24 @@ Which of the following variables/constants are declared correctly?  Select all t
 a. let nameOfPrincipal: Character = "Mrs. Watkins"
 
 b. var temperatureOutside: Int = 90.7
-
+//
 c. var isSummer: String = false
-
+//
 d. let whiteHouseAddress: Int + String = 1600 + "Pennsylvania Ave"
-
+//
 e. var peopleAtParty: Double = "95"
-```
 
+
+
+```
+// 
+Answer - NONE OF THE ABOVE
+A - Characters are only one character
+B - Int's are unable to have a decimal within it
+C- Strings require open and end quotes no " " around false
+D - Int and Strings can not be added
+E - Doubles are unable to have " " - those create strings  
+//
 ***
 ## 2. Boolean Evaluations 1
 
@@ -42,7 +52,9 @@ d. !!(!!true && !!false)
 
 e. true && (true && (true && (true || false)))
 ```
-
+//
+Answer - E
+//
 ***
 
 ## 3. Sum
@@ -73,6 +85,17 @@ sum = 35
 Output:
 35
 ```
+//
+Answer
+var a = 56
+var b = 44
+var sum = (a + b)
+
+print("The sum of a and b is \(sum).")
+
+The print would read out
+The sum of a and b is 100.
+//
 
 ***
 ## 4. Seconds in Year
@@ -85,7 +108,13 @@ The number of seconds in a year is 365 times the number of seconds in a day.
 The number of seconds in a day is 24 times the number of seconds in a hour.
 The number of seconds in a hour is 60 times the number of seconds in a minute, which is 60.
 ```
-
+//
+Answer
+var secondsPerMinute: Int = 60
+var secondsPerHour: Int = (secondsPerMinute * 60 )
+var secondsPerDay: Int = (secondsPerHour * 24)
+var SecondsPerYear: Int = (secondsPerDay * 365)
+//
 ***
 ## 5. Number of Pixels
 
@@ -119,7 +148,13 @@ Consider a 5x3 screen like this:
 
 The number of pixels on this screen is 5+5+5 = 5*3
 ```
+//
+Answer
+var height: Int = 2160
+var width: Int = 1080
+var numberOfPixels: Int = (width * height)
 
+//
 ***
 ## 6. Sum and Difference
 
@@ -151,7 +186,11 @@ Hint:
 sum + diff = a + a + b - b
 sum + diff = 2 * a
 ```
-
+//
+Answer
+var a = (sum + diff) / 2
+var b = sum - a 
+//
 ***
 ## 7. Swap Values
 
@@ -175,7 +214,15 @@ var b = 2
 a = b // a will have the value 2. The original value of a is lost
 b = a // b will remain the same
 ```
+//
+Answer
+var a = 7
+var b = 9
+var c = a
 
+a = b
+b = c
+//
 ***
 ## 8. Find last number
 
@@ -201,7 +248,12 @@ Output:
 Hint:
 Use the remainder % operator.
 ```
-
+//
+Answer
+var a = 789
+var k = 789 % 10
+print(k)
+//
 ***
 ## 9. Dog Years
 
@@ -217,7 +269,15 @@ Output:
 7
 
 ```
+//
+Answer
+var rockysAge = 90
+var humanAge = rockysAge / 7
 
+print(humanAge)
+
+Rocky is 12 in human years
+//
 ***
 ## 10. Alice's Age
 
@@ -253,7 +313,10 @@ alice + x = y * (bob + x)
 Solve for alice
 
 ```
-
+//
+Answer
+var alice = (y1 * (bob + x1) - x1)
+//
 ***
 ## 11. Trading Oranges for Apples
 
@@ -282,7 +345,12 @@ Hint:
 Use the division(/) and the remainder(%) operator
 
 ```
+//Answer
+var x = 17
+var apples = x % 5
+var oranges = (x / 5)* 3
 
+//
 ***
 ## 12. Boy and Girl Percentages
 
@@ -304,7 +372,14 @@ Output:
 75 // percentage of girls
 
 ```
+//
+var numberOfBoys: Double = 20
+var numberOfGirls: Double = 60
+var percentBoys: Double = numberOfBoys / (numberOfBoys + numberOfGirls) * 100
+var percentGirls: Double = numberOfGirls / (numberOfBoys + numberOfGirls) * 100
 
+print("Boys are \(percentBoys)% and girls and \(percentGirls)%")
+//
 ***
 ## 13. Boolean Evaluations 2
 
@@ -318,7 +393,7 @@ d. !!!true
 e. !(true && true)
 
 ```
-
+//Answer - A & C
 ***
 ## 14. Boolean Evaluations 3
 
@@ -332,4 +407,6 @@ d. 19.0 >= 19.0
 e. 9 > 7 && 7 < 10
 
 ```
-
+//
+Answer - C, D & E
+A - unable to compare Int and Doubles
