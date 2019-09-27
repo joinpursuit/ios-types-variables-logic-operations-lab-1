@@ -25,7 +25,7 @@ d. let whiteHouseAddress: Int + String = 1600 + "Pennsylvania Ave"
 
 e. var peopleAtParty: Double = "95"
 ```
-
+// answer: NONE 
 ***
 ## 2. Boolean Evaluations 1
 
@@ -42,7 +42,7 @@ d. !!(!!true && !!false)
 
 e. true && (true && (true && (true || false)))
 ```
-
+// answer: A, E
 ***
 
 ## 3. Sum
@@ -73,7 +73,13 @@ sum = 35
 Output:
 35
 ```
+// answer EXAMPLE 1
+// var sum = a + b
+// print(sum) 
 
+// answer EXAMPLE 2
+// var sum = a + b
+// print(sum)
 ***
 ## 4. Seconds in Year
 
@@ -85,7 +91,9 @@ The number of seconds in a year is 365 times the number of seconds in a day.
 The number of seconds in a day is 24 times the number of seconds in a hour.
 The number of seconds in a hour is 60 times the number of seconds in a minute, which is 60.
 ```
-
+// answer  
+// var secInYear = 60 * 60 * 24 * 365
+// print(secInYear) **31536000**
 ***
 ## 5. Number of Pixels
 
@@ -119,7 +127,13 @@ Consider a 5x3 screen like this:
 
 The number of pixels on this screen is 5+5+5 = 5*3
 ```
+// answer Example 1
+// var numberOfPixels = width * height
+// print(numberOfPixels) = 12
 
+// answer Example 2
+// numberOfPixels2 = width * height
+// print(numberOfPixels) 2073600
 ***
 ## 6. Sum and Difference
 
@@ -151,6 +165,11 @@ Hint:
 sum + diff = a + a + b - b
 sum + diff = 2 * a
 ```
+// Example 1: var a = (sum + diff) / 2
+//                    var b = sum - a
+                     
+// Example 2: var a = sum / sum
+//                    var b = a
 
 ***
 ## 7. Swap Values
@@ -175,6 +194,13 @@ var b = 2
 a = b // a will have the value 2. The original value of a is lost
 b = a // b will remain the same
 ```
+// var a = 1
+// var b = 2
+// a = b
+// var c = 1
+// b = c
+// a
+// b
 
 ***
 ## 8. Find last number
@@ -202,6 +228,11 @@ Hint:
 Use the remainder % operator.
 ```
 
+// var a = 123
+// a = a % 10
+
+// var a = 337
+// a = a % 10
 ***
 ## 9. Dog Years
 
@@ -217,7 +248,10 @@ Output:
 7
 
 ```
-
+// var rockysAge = 50
+// var dogYears = 7
+// var rockyAgeHumanYear = rockysAge/dogYears
+// rockyAgeHumanYear
 ***
 ## 10. Alice's Age
 
@@ -253,7 +287,11 @@ alice + x = y * (bob + x)
 Solve for alice
 
 ```
-
+// var alice
+// var x = 3
+var y = 2
+var bob = 12
+alice = y * (bob + x) - x
 ***
 ## 11. Trading Oranges for Apples
 
@@ -282,6 +320,9 @@ Hint:
 Use the division(/) and the remainder(%) operator
 
 ```
+// var xogApples = 17
+// var oranges = 17/5 * 3
+// var apples = 17 % 5
 
 ***
 ## 12. Boy and Girl Percentages
@@ -304,6 +345,11 @@ Output:
 75 // percentage of girls
 
 ```
+// var numberOfBoys = 20
+// var numberOfGirls = 60
+// var totalStudents = 80
+// var percentageOfBoys: Double = (20 / 80) * 100
+// var percentageOfGirls: Double = (60/80) * 100
 
 ***
 ## 13. Boolean Evaluations 2
@@ -318,7 +364,7 @@ d. !!!true
 e. !(true && true)
 
 ```
-
+answer: A, C, D
 ***
 ## 14. Boolean Evaluations 3
 
@@ -332,4 +378,5 @@ d. 19.0 >= 19.0
 e. 9 > 7 && 7 < 10
 
 ```
+answer: C, D, E
 
