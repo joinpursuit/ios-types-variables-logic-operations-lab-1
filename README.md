@@ -282,6 +282,16 @@ Output:
 7
 
 ```
+Answer
+```swift
+var rockysAgeInDogYears = 50
+
+var dogYears = 7
+
+var actualDogYears = rockysAgeInDogYears/dogYears
+
+print(actualDogYears)
+```
 
 ***
 ## 10. Alice's Age
@@ -318,6 +328,19 @@ alice + x = y * (bob + x)
 Solve for alice
 
 ```
+Answer
+```swift
+var x = 3
+var y = 2
+var bob = 12
+
+var alice = ((bob * y) + x)
+
+print(alice)
+
+// Personal note: ((bob * 2) + x) - When bob is twice as old, plus three years, this gives us alices age
+```
+
 
 ***
 ## 11. Trading Oranges for Apples
@@ -383,6 +406,10 @@ d. !!!true
 e. !(true && true)
 
 ```
+Answer
+```swift
+a. c. 
+```
 
 ***
 ## 14. Boolean Evaluations 3
@@ -396,5 +423,9 @@ c. "Hello!" == "Hello!"
 d. 19.0 >= 19.0
 e. 9 > 7 && 7 < 10
 
+```
+Answer
+```swift
+a. c. d. e.
 ```
 
