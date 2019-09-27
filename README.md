@@ -202,6 +202,7 @@ sum + diff = a + a + b - b
 sum + diff = 2 * a
 ```
 
+
 ***
 ## 7. Swap Values
 
@@ -266,7 +267,15 @@ Output:
 Hint:
 Use the remainder % operator.
 ```
+Answer
+```swift 
 
+var j = 123
+
+var lastDigit = (j % 10)
+
+print(lastDigit)
+```
 ***
 ## 9. Dog Years
 
@@ -369,6 +378,15 @@ oranges = 15
 Hint:
 Use the division(/) and the remainder(%) operator
 
+```
+Answer 
+```swift
+
+var a = 17
+
+var apples = a % 5
+
+var oranges = (a - apples) / 5 * 3
 ```
 
 ***
