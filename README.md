@@ -68,8 +68,11 @@ Output:
 ```
 ## Answer: 
 Input:
+
 var a = 4
+
 var b = 6
+
 var sum = a + b
 
 Expected values: 10
@@ -118,8 +121,11 @@ The number of pixels on this screen is 5+5+5 = 5*3
 ```
 ## Answer: 
 var width = 1920
+
 var height = 1080
+
 print(width * height)
+
 2073600
 
 
@@ -155,7 +161,9 @@ sum + diff = 2 * a
 ```
 ## Answer:
 let Sum = 16
+
 let Diff = 4
+
 print(Sum + Diff)
 
 ***
@@ -181,11 +189,17 @@ b = a // b will remain the same
 ```
 ## Answer:
 var a = 1
+
 var b = 2
+
 var time = a
+
 a = b
+
 b = time
+
 print(a)
+
 print(b)
 ***
 ## 8. You are given a number a. Print the last digit of a.
@@ -215,6 +229,7 @@ Can you think of a value for k that gives the last digit?
 ```
 ## Answer: 
 var a = 123
+
 print (a % 10)
 ***
 ## 9. You are given Rocky’s age in dog years. Print Rocky’s age in human years. You know that 1 human year is 7 dog years.
@@ -272,10 +287,13 @@ Solve for alice
 ```
 ## Answer:
 var x = 3
+
 var y = 2
+
 var bob = 12
 
 var aliceAge = y * (bob + x)
+
 print(aliceAge)
 
 ***
@@ -308,6 +326,7 @@ Use the division(/) and the remainder(%) operator
 var x = 17
 
 var apples = x % 5
+
 var oranges = x / 5 * 3
 ***
 ## 12. A class consists of numberOfBoys boys and numberOfGirls girls.
@@ -329,10 +348,15 @@ Output:
 ```
 ## Answer: 
 var numberOfBoys = 20
+
 var numberOfGirls = 60
+
 var percentOfBoys:Double  = (20 / 80 * 100)
+
 var percentOfGirls:Double = (60 / 80 * 100)
+
 print(percentOfBoys)
+
 print(percentOfGirls)
 ***
 ## 13.Which of the following expressions evaluate to true?
