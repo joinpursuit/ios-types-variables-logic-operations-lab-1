@@ -25,6 +25,15 @@ d. let whiteHouseAddress: Int + String = 1600 + "Pennsylvania Ave"
 
 e. var peopleAtParty: Double = "95"
 ```
+Answer
+```swift
+None of the options are declared correctly.
+a. This would be a string, as it has multiple characters
+b. Int does not contain decimals
+c. This would a Bool
+d. You cannot add differing value types (without casting/converting)
+e. Doubles need to contain decimals
+```
 
 ***
 ## 2. Boolean Evaluations 1
@@ -42,7 +51,10 @@ d. !!(!!true && !!false)
 
 e. true && (true && (true && (true || false)))
 ```
-
+Answer
+```swift
+C + E are true
+```
 ***
 
 ## 3. Sum
@@ -73,6 +85,16 @@ sum = 35
 Output:
 35
 ```
+Answer
+```swift
+var a = 1
+
+var b = 2
+
+var sum = (a + b)
+
+print(sum)
+```
 
 ***
 ## 4. Seconds in Year
@@ -84,6 +106,16 @@ Hint:
 The number of seconds in a year is 365 times the number of seconds in a day.
 The number of seconds in a day is 24 times the number of seconds in a hour.
 The number of seconds in a hour is 60 times the number of seconds in a minute, which is 60.
+```
+Answer
+```swift
+let secHours = 60 * 60
+
+let secDays = secHours * 24
+
+let secYears = secDays * 365
+
+print(secYears)
 ```
 
 ***
@@ -119,6 +151,24 @@ Consider a 5x3 screen like this:
 
 The number of pixels on this screen is 5+5+5 = 5*3
 ```
+Answer
+```swift
+var width = 4
+
+var height = 3
+
+let numberOfPixels = (width * height)
+
+print(numberOfPixels)
+
+var widthHD = 1920
+
+var heightHD = 1080
+
+let numberofHDPixels = (widthHD * heightHD)
+
+print(numberofHDPixels)
+```
 
 ***
 ## 6. Sum and Difference
@@ -151,6 +201,20 @@ Hint:
 sum + diff = a + a + b - b
 sum + diff = 2 * a
 ```
+Answer
+```swift
+
+let sum = 16 // a + b
+
+let dif = 4 // a - b
+
+var a = (sum + dif) / 2
+
+var b = sum1 - a
+
+//This took me longer than I would like, but I think I got it.
+```
+
 
 ***
 ## 7. Swap Values
@@ -174,6 +238,21 @@ var b = 2
 
 a = b // a will have the value 2. The original value of a is lost
 b = a // b will remain the same
+```
+Answer
+```swift
+var a = 1
+
+var b = 2
+
+var c = g
+
+a = b
+
+b = c
+
+print(a)
+print(b)
 ```
 
 ***
@@ -201,7 +280,15 @@ Output:
 Hint:
 Use the remainder % operator.
 ```
+Answer
+```swift 
 
+var j = 123
+
+var lastDigit = (j % 10)
+
+print(lastDigit)
+```
 ***
 ## 9. Dog Years
 
@@ -216,6 +303,16 @@ var rockysAgeInDogYears = 50
 Output:
 7
 
+```
+Answer
+```swift
+var rockysAgeInDogYears = 50
+
+var dogYears = 7
+
+var actualDogYears = rockysAgeInDogYears/dogYears
+
+print(actualDogYears)
 ```
 
 ***
@@ -253,6 +350,19 @@ alice + x = y * (bob + x)
 Solve for alice
 
 ```
+Answer
+```swift
+var x = 3
+var y = 2
+var bob = 12
+
+var alice = ((bob * y) + x)
+
+print(alice)
+
+// Personal note: ((bob * 2) + x) - When bob is twice as old, plus three years, this gives us alices age
+```
+
 
 ***
 ## 11. Trading Oranges for Apples
@@ -282,6 +392,15 @@ Hint:
 Use the division(/) and the remainder(%) operator
 
 ```
+Answer 
+```swift
+
+var a = 17
+
+var apples = a % 5
+
+var oranges = (a - apples) / 5 * 3
+```
 
 ***
 ## 12. Boy and Girl Percentages
@@ -304,6 +423,25 @@ Output:
 75 // percentage of girls
 
 ```
+Answer
+```swift
+
+var numberOfBoys = 20.0
+var numberOfGirls = 60.0
+
+var totalClassSize = (numberOfBoys + numberOfGirls)
+
+var percentageOfBoys = (numberOfBoys / totalClassSize)  * 100
+
+var percentageOfGirls = (numberOfGirls / totalClassSize) * 100
+
+Int(percentageOfBoys)
+
+Int(percentageOfGirls)
+
+// - Not sure how to print as Intergers. I want to figure that out
+
+```
 
 ***
 ## 13. Boolean Evaluations 2
@@ -318,6 +456,10 @@ d. !!!true
 e. !(true && true)
 
 ```
+Answer
+```swift
+a. c. 
+```
 
 ***
 ## 14. Boolean Evaluations 3
@@ -331,5 +473,9 @@ c. "Hello!" == "Hello!"
 d. 19.0 >= 19.0
 e. 9 > 7 && 7 < 10
 
+```
+Answer
+```swift
+a. c. d. e.
 ```
 
