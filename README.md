@@ -25,7 +25,7 @@ d. let whiteHouseAddress: Int + String = 1600 + "Pennsylvania Ave"
 
 e. var peopleAtParty: Double = "95"
 ```
-
+They all give me errors I want to say they are ALL wrong because a). is NOT character. b).is not an Int because it has a decimal. c). Is not a bool or String. d). I dont think you can add Int with Strings e). 95 is not a double 
 ***
 ## 2. Boolean Evaluations 1
 
@@ -42,7 +42,7 @@ d. !!(!!true && !!false)
 
 e. true && (true && (true && (true || false)))
 ```
-
+ E is the only true expression
 ***
 
 ## 3. Sum
@@ -55,6 +55,8 @@ Example 1
 Input:
 var a = 1
 var b = 2
+
+
 
 Expected values:
 sum = 3
@@ -73,6 +75,18 @@ sum = 35
 Output:
 35
 ```
+ex1
+var a = 1
+var b = 2
+var Sum = a + b 
+print(sum)
+
+ex2
+var a = 13
+var b = 22
+var sum = a + b
+print(sum)
+
 
 ***
 ## 4. Seconds in Year
@@ -85,6 +99,12 @@ The number of seconds in a year is 365 times the number of seconds in a day.
 The number of seconds in a day is 24 times the number of seconds in a hour.
 The number of seconds in a hour is 60 times the number of seconds in a minute, which is 60.
 ```
+let sixtySeconds = 60
+var secondsInHour = (sixtySeconds * sixtySeconds)
+var secondsInDay = (secondsInHour * 24)
+var secondsInAYear = (secondsInDay * 365)
+print(secondsInAYear)
+
 
 ***
 ## 5. Number of Pixels
@@ -100,6 +120,7 @@ Input:
 var width = 4
 var height = 3
 
+
 Expected values:
 numberOfPixels = 12
 
@@ -107,6 +128,8 @@ Example 2
 Input:
 var width = 1920
 var height = 1080
+
+
 
 Expected values:
 numberOfPixels = 2073600
@@ -119,6 +142,17 @@ Consider a 5x3 screen like this:
 
 The number of pixels on this screen is 5+5+5 = 5*3
 ```
+ex1
+var width = 4
+var height = 3
+var numberOfPixels = (width * height)
+print(numberOfPixels)
+
+ex2
+ar width = 1920
+var height = 1080
+var numberOfPixels = (width * height)
+print(numberOfPixels)
 
 ***
 ## 6. Sum and Difference
@@ -152,6 +186,9 @@ sum + diff = a + a + b - b
 sum + diff = 2 * a
 ```
 
+let a = (sum + diff) / 2
+let b = sum - a 
+``
 ***
 ## 7. Swap Values
 
@@ -175,6 +212,13 @@ var b = 2
 a = b // a will have the value 2. The original value of a is lost
 b = a // b will remain the same
 ```
+var a = 1
+var b = 2
+
+var c = a
+
+var a = b
+var b = c
 
 ***
 ## 8. Find last number
@@ -201,6 +245,8 @@ Output:
 Hint:
 Use the remainder % operator.
 ```
+var k = a % 10
+print(k)
 
 ***
 ## 9. Dog Years
@@ -217,7 +263,10 @@ Output:
 7
 
 ```
-
+var rockysAge = 50
+var humanYears = 7
+var rockysHumanAge = (rockysAge / humanYears )
+print(rockysHumanAge)
 ***
 ## 10. Alice's Age
 
@@ -228,7 +277,6 @@ var x = 3
 var y = 2
 var bob = 12
 
-var alice = ?
 
 Example 1
 Input: 
@@ -253,6 +301,12 @@ alice + x = y * (bob + x)
 Solve for alice
 
 ```
+var x = 3
+var y = 2
+var bob = 12
+
+var alice = y * (bob + x) - 3
+print(alice)
 
 ***
 ## 11. Trading Oranges for Apples
@@ -282,7 +336,11 @@ Hint:
 Use the division(/) and the remainder(%) operator
 
 ```
+var orangeRate = (x / 5) * 3
+var applesLeft = x % 5
 
+print(orangeRate)
+print(applesLeft)
 ***
 ## 12. Boy and Girl Percentages
 
@@ -304,7 +362,8 @@ Output:
 75 // percentage of girls
 
 ```
-
+var numberOfBoys = 20
+var numberOfGirls = 60
 ***
 ## 13. Boolean Evaluations 2
 
@@ -318,6 +377,7 @@ d. !!!true
 e. !(true && true)
 
 ```
+a & c
 
 ***
 ## 14. Boolean Evaluations 3
@@ -332,4 +392,4 @@ d. 19.0 >= 19.0
 e. 9 > 7 && 7 < 10
 
 ```
-
+c, e
