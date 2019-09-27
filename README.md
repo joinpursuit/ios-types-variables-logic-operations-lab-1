@@ -54,6 +54,7 @@ e. true && (true && (true && (true || false)))
 Answer
 ```swift
 C + E are true
+```
 ***
 
 ## 3. Sum
@@ -106,6 +107,16 @@ The number of seconds in a year is 365 times the number of seconds in a day.
 The number of seconds in a day is 24 times the number of seconds in a hour.
 The number of seconds in a hour is 60 times the number of seconds in a minute, which is 60.
 ```
+Answer
+```swift
+let secHours = 60 * 60
+
+let secDays = secHours * 24
+
+let secYears = secDays * 365
+
+print(secYears)
+```
 
 ***
 ## 5. Number of Pixels
@@ -139,6 +150,24 @@ Consider a 5x3 screen like this:
 *****
 
 The number of pixels on this screen is 5+5+5 = 5*3
+```
+Answer
+```swift
+var width = 4
+
+var height = 3
+
+let numberOfPixels = (width * height)
+
+print(numberOfPixels)
+
+var widthHD = 1920
+
+var heightHD = 1080
+
+let numberofHDPixels = (widthHD * heightHD)
+
+print(numberofHDPixels)
 ```
 
 ***
@@ -195,6 +224,21 @@ var b = 2
 
 a = b // a will have the value 2. The original value of a is lost
 b = a // b will remain the same
+```
+Answer
+```swift
+var a = 1
+
+var b = 2
+
+var c = g
+
+a = b
+
+b = c
+
+print(a)
+print(b)
 ```
 
 ***
