@@ -24,8 +24,15 @@ c. var isSummer: String = false
 d. let whiteHouseAddress: Int + String = 1600 + "Pennsylvania Ave"
 
 e. var peopleAtParty: Double = "95"
+
+
+/* answer:
+e
+*/
 ```
 
+
+// 
 ***
 ## 2. Boolean Evaluations 1
 
@@ -41,6 +48,10 @@ c. (3 < 2 || (0 < 1 && 3 >= 3)) && true
 d. !!(!!true && !!false)
 
 e. true && (true && (true && (true || false)))
+
+/* answer:
+c, e
+*/
 ```
 
 ***
@@ -72,6 +83,10 @@ sum = 35
 
 Output:
 35
+
+/* answer:
+var sum = a + b
+*/
 ```
 
 ***
@@ -84,6 +99,14 @@ Hint:
 The number of seconds in a year is 365 times the number of seconds in a day.
 The number of seconds in a day is 24 times the number of seconds in a hour.
 The number of seconds in a hour is 60 times the number of seconds in a minute, which is 60.
+
+/* answer: 
+let secsInMin = 60
+let minsInHour = 60
+let hoursInDay = 24
+let daysInYear = 365
+let secondsInAYear = secsInMin * minsInHour * hoursInDay * daysInYear
+*/
 ```
 
 ***
@@ -118,6 +141,10 @@ Consider a 5x3 screen like this:
 *****
 
 The number of pixels on this screen is 5+5+5 = 5*3
+
+/* answer:
+var numberOfPixels = height * width
+*/
 ```
 
 ***
@@ -150,6 +177,11 @@ b = 1
 Hint:
 sum + diff = a + a + b - b
 sum + diff = 2 * a
+
+/* answer:
+var a = (sum + dif)/2
+var b = (sum - dif)/2
+*/
 ```
 
 ***
@@ -174,6 +206,12 @@ var b = 2
 
 a = b // a will have the value 2. The original value of a is lost
 b = a // b will remain the same
+
+/* answer:
+var c = a
+a = b
+b = c
+*/
 ```
 
 ***
@@ -200,6 +238,16 @@ Output:
 
 Hint:
 Use the remainder % operator.
+<<<<<<< HEAD
+Remember that a = k * (a / k) + a % k
+Can you think of a value for k that gives the last digit?
+
+/* answer:
+var lastDigit = a%10
+print(lastDigit)
+*/
+=======
+>>>>>>> 4cd23dd13f012c2f96636d87119ee098c6af27a5
 ```
 
 ***
@@ -216,6 +264,10 @@ var rockysAgeInDogYears = 50
 Output:
 7
 
+/* answer:
+var humanYears = rockyAge / 7
+print(humanYears)
+*/
 ```
 
 ***
@@ -252,6 +304,9 @@ Hint:
 alice + x = y * (bob + x)
 Solve for alice
 
+/* answer:
+var alice = y * (bob + x) - x
+*/
 ```
 
 ***
@@ -281,6 +336,10 @@ oranges = 15
 Hint:
 Use the division(/) and the remainder(%) operator
 
+/* answer:
+var apples = x%5
+var oranges = (x/5) * 3
+*/
 ```
 
 ***
@@ -303,6 +362,13 @@ Output:
 25 // percentage of boys
 75 // percentage of girls
 
+/* answer:
+var total = numberOfBoys + numberOfGirls
+var percentageOfBoys = (numberOfBoys*100) / (total)
+var percentageOfGirls = (numberOfGirls*100) / (total)
+print("\(percentageOfBoys)%")
+print("\(percentageOfGirls)%")
+*/
 ```
 
 ***
@@ -317,6 +383,9 @@ c. !false
 d. !!!true
 e. !(true && true)
 
+/* answer:
+a, c
+*/
 ```
 
 ***
@@ -331,5 +400,8 @@ c. "Hello!" == "Hello!"
 d. 19.0 >= 19.0
 e. 9 > 7 && 7 < 10
 
+/* answer:
+c, d, e
+*/
 ```
 
