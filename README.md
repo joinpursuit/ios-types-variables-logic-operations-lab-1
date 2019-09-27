@@ -27,13 +27,12 @@ e. var peopleAtParty: Double = "95"
 ```
 Answer
 ```swift
-var a = 1
-
-var b = 2
-
-var sum = (a + b)
-
-print(sum)
+None of the options are declared correctly.
+a. This would be a string, as it has multiple characters
+b. Int does not contain decimals
+c. This would a Bool
+d. You cannot add differing value types (without casting/converting)
+e. Doubles need to contain decimals
 ```
 
 ***
@@ -52,6 +51,16 @@ d. !!(!!true && !!false)
 
 e. true && (true && (true && (true || false)))
 ```
+Answer
+```swift
+let secHours = 60 * 60
+
+let secDays = secHours * 24
+
+let secYears = secDays * 365
+
+print(secYears)
+
 
 ***
 
