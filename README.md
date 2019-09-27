@@ -25,7 +25,7 @@ d. let whiteHouseAddress: Int + String = 1600 + "Pennsylvania Ave"
 
 e. var peopleAtParty: Double = "95"
 ```
-
+E
 ***
 ## 2. Boolean Evaluations 1
 
@@ -42,7 +42,7 @@ d. !!(!!true && !!false)
 
 e. true && (true && (true && (true || false)))
 ```
-
+C, E
 ***
 
 ## 3. Sum
@@ -73,6 +73,10 @@ sum = 35
 Output:
 35
 ```
+var a = 25
+var b = 35
+var sum =  a + b
+print("The sum of \(a) and  \(b) is \(sum)")
 
 ***
 ## 4. Seconds in Year
@@ -85,7 +89,10 @@ The number of seconds in a year is 365 times the number of seconds in a day.
 The number of seconds in a day is 24 times the number of seconds in a hour.
 The number of seconds in a hour is 60 times the number of seconds in a minute, which is 60.
 ```
-
+var secondsInAnHour = 60 * 60
+var secondsInADay = secondsInAnHour * 24
+var secondsInAYear = secondsInADay * 365
+print("There are \(secondsInAnHour) in an hour, \(secondsInADay) in a day, and \(secondsInAYear) in a year.")
 ***
 ## 5. Number of Pixels
 
@@ -119,6 +126,11 @@ Consider a 5x3 screen like this:
 
 The number of pixels on this screen is 5+5+5 = 5*3
 ```
+var width = 1920
+var height = 1080
+var numberOfPixels = width * height
+print("If your screen is \(width) pixels by \(height) pixels, then your total number of pixels will be \(numberOfPixels)")
+
 
 ***
 ## 6. Sum and Difference
@@ -151,6 +163,14 @@ Hint:
 sum + diff = a + a + b - b
 sum + diff = 2 * a
 ```
+let sum = 16
+let diff = 4
+
+var a = (sum + diff) / 2
+var b = sum - a
+print("we sovled what numbers add up to \(sum), and their difference is \(diff), the two nubers are \(a) and \(b)")
+
+
 
 ***
 ## 7. Swap Values
@@ -175,6 +195,15 @@ var b = 2
 a = b // a will have the value 2. The original value of a is lost
 b = a // b will remain the same
 ```
+var a = 1
+var b = 4
+
+var changeA = b
+var changeB = a
+
+a = changeA
+b = changeB
+
 
 ***
 ## 8. Find last number
@@ -201,6 +230,10 @@ Output:
 Hint:
 Use the remainder % operator.
 ```
+var a = 123
+var lastDigit = a % 10
+print("The last digit in \(a) is \(lastdigit)")
+
 
 ***
 ## 9. Dog Years
@@ -217,6 +250,9 @@ Output:
 7
 
 ```
+var rockysAgeDogYears = 50
+var rockysHumanAge = rockysAgeDogYears / 7
+print("Rocky's age in dog years is \(rockysAgeDogYears) and his age in human years is \(rockysHumanAge)")
 
 ***
 ## 10. Alice's Age
@@ -253,6 +289,12 @@ alice + x = y * (bob + x)
 Solve for alice
 
 ```
+var x = 3
+var y = 2
+var bob = 12
+var alice = y * (bob + x) -x
+
+
 
 ***
 ## 11. Trading Oranges for Apples
