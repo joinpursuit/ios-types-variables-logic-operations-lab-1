@@ -26,6 +26,10 @@ d. let whiteHouseAddress: Int + String = 1600 + "Pennsylvania Ave"
 e. var peopleAtParty: Double = "95"
 ```
 
+/*ANSWER:
+Ans: None are declared correctly.
+*/
+
 ***
 ## 2. Boolean Evaluations 1
 
@@ -42,6 +46,11 @@ d. !!(!!true && !!false)
 
 e. true && (true && (true && (true || false)))
 ```
+/*
+ANSWER
+c. True
+e. True
+*/
 
 ***
 
@@ -74,6 +83,12 @@ Output:
 35
 ```
 
+/*ANSWER:
+ var a = 25
+ var b = 12
+ var sum = a + b
+ print("The sum of var a and var b is \(sum)")
+*/
 ***
 ## 4. Seconds in Year
 
@@ -85,6 +100,12 @@ The number of seconds in a year is 365 times the number of seconds in a day.
 The number of seconds in a day is 24 times the number of seconds in a hour.
 The number of seconds in a hour is 60 times the number of seconds in a minute, which is 60.
 ```
+/*ANSWER:
+let secondsInAnHour: Integer = 60 * 60
+let secondsInADay: Integer = secondsInAnHour * 24
+let secondsInAYear: Integer = secondsInADay * 365
+print("There are (\secondsInAYear) seconds in a year.")
+*/
 
 ***
 ## 5. Number of Pixels
@@ -119,6 +140,14 @@ Consider a 5x3 screen like this:
 
 The number of pixels on this screen is 5+5+5 = 5*3
 ```
+/*ANSWER:
+var width = 520
+var height = 780
+
+var numberOfPixels = width * height
+
+print("The number of pixels on this screen is \(numberOfPixels)")
+*/
 
 ***
 ## 6. Sum and Difference
@@ -151,6 +180,19 @@ Hint:
 sum + diff = a + a + b - b
 sum + diff = 2 * a
 ```
+/*ANSWER
+let sum = 16
+let diff = 4
+
+var a = (sum + diff)/2
+
+var b = (sum - a)
+
+print(a)
+print(b)
+
+
+*/
 
 ***
 ## 7. Swap Values
@@ -175,7 +217,17 @@ var b = 2
 a = b // a will have the value 2. The original value of a is lost
 b = a // b will remain the same
 ```
+/*ANSWER
+var a = 13
+var b = 92
 
+let sum = a + b 
+
+var b = sum - a
+var a = sum - b
+
+
+*/
 ***
 ## 8. Find last number
 
@@ -201,7 +253,12 @@ Output:
 Hint:
 Use the remainder % operator.
 ```
+/*ANSWER:
+var a = 248
+var lastNum = (a % 3) * 4
 
+print("The last digit of var a is: \(lastNum)")
+*/
 ***
 ## 9. Dog Years
 
@@ -217,7 +274,15 @@ Output:
 7
 
 ```
+/*ANSWER
+var rockysAge = 72
 
+var humanYears = rockysAge / 7
+
+rockysAge = humanYears
+
+print("Rocky's age in human years: \(rockysAge)")
+*/
 ***
 ## 10. Alice's Age
 
@@ -253,7 +318,15 @@ alice + x = y * (bob + x)
 Solve for alice
 
 ```
+/*
+var x = 5
+var y = 3
+var bob = 12
 
+var alice = y * (bob + x) - x
+
+print("Alice is \(alice) years old")
+*/
 ***
 ## 11. Trading Oranges for Apples
 
@@ -282,6 +355,18 @@ Hint:
 Use the division(/) and the remainder(%) operator
 
 ```
+\*ANSWER
+
+var x = 17
+var bobsApples = 5
+var bobsOranges = 3
+
+var apples = x % bobsApples
+var oranges = (x / 5) * bobsOranges
+
+print("Number of apples left after trade: \(apples)" + " Number of oranges gained after trade: \(oranges)")
+
+*\
 
 ***
 ## 12. Boy and Girl Percentages
@@ -304,6 +389,18 @@ Output:
 75 // percentage of girls
 
 ```
+\*ANSWER
+var numberOfGirls: Double = 39
+var numberOfBoys: Double = 21
+
+var total : Double = numberOfGirls + numberOfBoys
+
+var percentageGirls: Double  = (numberOfGirls / total) * 100
+var percentageBoys: Double = (numberOfBoys / total) * 100
+
+print("There are \(Int(percentageGirls))% of girls in this class. There are \(Int(percentageBoys))% in this class.")
+
+*\
 
 ***
 ## 13. Boolean Evaluations 2
@@ -318,7 +415,10 @@ d. !!!true
 e. !(true && true)
 
 ```
-
+\*ANSWER:
+a. True
+c. True
+*\
 ***
 ## 14. Boolean Evaluations 3
 
@@ -332,4 +432,10 @@ d. 19.0 >= 19.0
 e. 9 > 7 && 7 < 10
 
 ```
+\*ANSWER:
+a. True
+c. True
+d. True
+e. True
+*\
 
