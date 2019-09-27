@@ -84,7 +84,7 @@ The number of seconds in a year is 365 times the number of seconds in a day.
 The number of seconds in a day is 24 times the number of seconds in a hour.
 The number of seconds in a hour is 60 times the number of seconds in a minute, which is 60.
 ```
-## Answer: 
+## Answer: var secondsInAYear = 31536000
 ***
 ## 5. Your are given the width and height of a screen in pixels. Calculate the total number of pixels on the screen and store the result in a variable named numberOfPixels.
 
@@ -116,7 +116,13 @@ Consider a 5x3 screen like this:
 
 The number of pixels on this screen is 5+5+5 = 5*3
 ```
-## Answer:
+## Answer: 
+var width = 1920
+var height = 1080
+print(width * height)
+2073600
+
+
 
 ***
 ## 6. You are given the sum and the difference of two numbers. Find out the values of the original numbers and store them in variables a and b.
@@ -148,6 +154,10 @@ sum + diff = a + a + b - b
 sum + diff = 2 * a
 ```
 ## Answer:
+let Sum = 16
+let Diff = 4
+print(Sum + Diff)
+
 ***
 ## 7. Given two variable a and b, swap their values. That is the new value of a will become the old value of b and vice versa.
 
