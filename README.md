@@ -201,6 +201,19 @@ Hint:
 sum + diff = a + a + b - b
 sum + diff = 2 * a
 ```
+Answer
+```swift
+
+let sum = 16 // a + b
+
+let dif = 4 // a - b
+
+var a = (sum + dif) / 2
+
+var b = sum1 - a
+
+//This took me longer than I would like, but I think I got it.
+```
 
 
 ***
