@@ -170,8 +170,8 @@ Answer
 ```swift
 let sum = 16
 let diff = 4
-var a = sum / 2 + diff
-var b = sum / 2 - diff
+var a = (sum + diff) / 2
+var b = sum - a
 ```
 ***
 ## 7. Given two variable a and b, swap their values. That is the new value of a will become the old value of b and vice versa.
