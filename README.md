@@ -15,7 +15,7 @@
 Which of the following variables/constants are declared correctly?  Select all that apply.
 
 ```swift
-a. let nameOfPrincipal: Character = "Mrs. Watkins"
+a. let nameOfPrincipal: Character = "Mrs. Watkins" 
 
 b. var temperatureOutside: Int = 90.7
 
@@ -25,7 +25,10 @@ d. let whiteHouseAddress: Int + String = 1600 + "Pennsylvania Ave"
 
 e. var peopleAtParty: Double = "95"
 ```
-
+```
+Answer:
+None of them are
+```
 ***
 ## 2. Boolean Evaluations 1
 
@@ -42,7 +45,10 @@ d. !!(!!true && !!false)
 
 e. true && (true && (true && (true || false)))
 ```
-
+```
+Answer:
+e
+```
 ***
 
 ## 3. Sum
@@ -73,7 +79,19 @@ sum = 35
 Output:
 35
 ```
+```
+Answer:
+Example 1
+var sum = a + b
+print(sum)
 
+Example 2
+var sum = a + b
+print(sum)
+```
+```
+
+```
 ***
 ## 4. Seconds in Year
 
@@ -85,7 +103,14 @@ The number of seconds in a year is 365 times the number of seconds in a day.
 The number of seconds in a day is 24 times the number of seconds in a hour.
 The number of seconds in a hour is 60 times the number of seconds in a minute, which is 60.
 ```
+```
+Answer:
+var secondsPerMinute = 60
+var secondsPerHour = secondsPerMinute*secondsPerMinute
+var secondsPerDay = secondsPerHour*24
+var secondsInAYear = secondsPerDay*365
 
+```
 ***
 ## 5. Number of Pixels
 
@@ -119,6 +144,22 @@ Consider a 5x3 screen like this:
 
 The number of pixels on this screen is 5+5+5 = 5*3
 ```
+```
+Answer:
+Example 1
+var width = 4
+var height = 3
+var numberOfPixels = width * height
+print(numberOfPixels)
+
+Example 2
+var width = 1920
+var height = 1080
+var numberOfPixels = width * height
+print(numberOfPixels)
+
+
+```
 
 ***
 ## 6. Sum and Difference
@@ -151,6 +192,21 @@ Hint:
 sum + diff = a + a + b - b
 sum + diff = 2 * a
 ```
+```
+Answer
+Example 1
+let sum = 16
+let diff = 4
+let sumPlusDifference = sum + diff
+let a = sumPlusDifference / 2
+let b = sum - a
+
+let sum = 2 
+let diff = 0
+let sumPlusDifferenc = sum + diff
+let a = sumPlusDifference / 2
+let b = sum - a
+```
 
 ***
 ## 7. Swap Values
@@ -174,6 +230,13 @@ var b = 2
 
 a = b // a will have the value 2. The original value of a is lost
 b = a // b will remain the same
+```
+
+```
+var a = 30
+var b = 17
+a = 17
+b = 30
 ```
 
 ***
@@ -201,6 +264,14 @@ Output:
 Hint:
 Use the remainder % operator.
 ```
+```
+Answer
+Example 1
+var a = 123
+var output = 123 % 4
+print(output)
+
+```
 
 ***
 ## 9. Dog Years
@@ -215,6 +286,11 @@ var rockysAgeInDogYears = 50
 
 Output:
 7
+
+```
+```
+var rockysAge = 50
+var rockysHumanAge = rockysAge / 7
 
 ```
 
@@ -253,6 +329,24 @@ alice + x = y * (bob + x)
 Solve for alice
 
 ```
+```
+Answer:
+Example 1
+var x = 3
+var y = 2
+var bob = 12
+
+var alicesAgeInThreeYears = ((bob + x) * y)
+var alicesAgeNow = alicesAgeInThreeYears - x
+
+Example 2
+var x = 1
+var y = 3
+var bob = 12
+var alicesAgeInThreeYears = ((bob + x) * y)
+var alicesAgeNow = alicesAgeInThreeYears - x    
+
+```
 
 ***
 ## 11. Trading Oranges for Apples
@@ -282,6 +376,18 @@ Hint:
 Use the division(/) and the remainder(%) operator
 
 ```
+```
+Answer:
+Example 1
+var x = 17
+var apples = x % 5
+var oranges = (x/5) * 3
+
+Example 2
+var x = 25
+var apples = x % 5
+var oranges = (x/5) * 3
+```
 
 ***
 ## 12. Boy and Girl Percentages
@@ -304,6 +410,15 @@ Output:
 75 // percentage of girls
 
 ```
+```
+Answer:
+var numberOfGirls = 60
+var numberOfBoys = 20
+var totalNumberOfStudents = numberOfGirls + numberOfBoys
+var percentageOfBoys = (100 * numberOfBoys / totalNumberOfStudents)
+var percentageOfGirls = (100 * numberOfGirls / totalNumberOfStudents)
+
+```
 
 ***
 ## 13. Boolean Evaluations 2
@@ -318,7 +433,10 @@ d. !!!true
 e. !(true && true)
 
 ```
-
+```
+Answer:
+a, c
+```
 ***
 ## 14. Boolean Evaluations 3
 
@@ -330,6 +448,11 @@ b. 9 == 2
 c. "Hello!" == "Hello!"
 d. 19.0 >= 19.0
 e. 9 > 7 && 7 < 10
+
+```
+```
+Answer:
+a, c, d, e
 
 ```
 
