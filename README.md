@@ -22,9 +22,16 @@ d. let whiteHouseAddress: Int + String = 1600 + "Pennsylvania Ave"
 
 e. var peopleAtParty: Double = "95"
 ```
-// Answer : None of the above
-// a) character is supposed to be one letter b) int has to be a whole number c) string needs " " d) cant add int and var  e) double is an int
+'''
+swift
 
+Answer : None of the above
+a) character is supposed to be one letter 
+b) int has to be a whole number 
+c) string needs " " 
+d) cant add int and var  
+e) double is an int
+'''
 
 ***
 ## 2. Which of the following expressions evaluate to true?
