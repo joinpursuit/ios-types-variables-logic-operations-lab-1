@@ -15,13 +15,7 @@
 Which of the following variables/constants are declared correctly?  Select all that apply.
 
 ```swift
-a. let nameOfPrincipal: Character = "Mrs. Watkins"
-
-b. var temperatureOutside: Int = 90.7
-
 c. var isSummer: String = false
-
-d. let whiteHouseAddress: Int + String = 1600 + "Pennsylvania Ave"
 
 e. var peopleAtParty: Double = "95"
 ```
@@ -32,13 +26,8 @@ e. var peopleAtParty: Double = "95"
 Which of the following expressions evaluate to true?
 
 ```swift
-a. !(4 + 3 < 2 * 4)
-
-b. !(1 + 1 != 2) && !(3 >= 3)
 
 c. (3 < 2 || (0 < 1 && 3 >= 3)) && true
-
-d. !!(!!true && !!false)
 
 e. true && (true && (true && (true || false)))
 ```
@@ -73,6 +62,23 @@ sum = 35
 Output:
 35
 ```
+// example 1
+var sum = a + b
+rint (sum) , prints 3
+print (output) , prints 3
+
+
+//example 2
+
+var a = 13
+var b = 22
+ 
+var sum = a + b
+ 
+var output = sum
+ 
+print (sum) , prints 35
+print (output), prints 35
 
 ***
 ## 4. Seconds in Year
@@ -85,6 +91,17 @@ The number of seconds in a year is 365 times the number of seconds in a day.
 The number of seconds in a day is 24 times the number of seconds in a hour.
 The number of seconds in a hour is 60 times the number of seconds in a minute, which is 60.
 ```
+var seconds = 1
+ 
+var secondsInAMinute = 60 * seconds
+ 
+var secondsInAnHour = 60 * secondsInAMinute
+ 
+var secondsInADay = 24 * secondsInAnHour
+ 
+var secondsInAYear = 365 * secondsInADay
+ 
+print(secondsInAYear) // prints 31536000
 
 ***
 ## 5. Number of Pixels
@@ -119,6 +136,23 @@ Consider a 5x3 screen like this:
 
 The number of pixels on this screen is 5+5+5 = 5*3
 ```
+//Example 1
+Input:
+ 
+var width = 4
+var height = 3
+ 
+var numberOfPixels = width * height
+ 
+print (numberOfPixels) // prints 12
+
+//Example 2
+var width = 1920
+var height = 1080
+ 
+var numberOfPixels = width * height
+ 
+print (numberOfPixels) // prints 2073600
 
 ***
 ## 6. Sum and Difference
@@ -151,6 +185,26 @@ Hint:
 sum + diff = a + a + b - b
 sum + diff = 2 * a
 ```
+//Example 1
+ Input:
+let sum = 16 // a + b
+let diff = 4 // a - b
+ 
+let a = (sum + diff)/2
+ 
+let b = sum - a
+ 
+ print (a) // prints 10
+ print (b) //prints 6
+
+//Example 2
+Input:
+var sum = 2
+var diff = 0
+let a = (sum + diff)/2
+let b = sum - a
+print (a) // prints 1
+print (b) // prints 1
 
 ***
 ## 7. Swap Values
@@ -175,6 +229,14 @@ var b = 2
 a = b // a will have the value 2. The original value of a is lost
 b = a // b will remain the same
 ```
+var a = 1
+var b = 2
+
+var aNew = (a - a) + b
+var bNew = ( b - b ) + a
+
+print (aNew) // prints 2
+print (bNew) // prints 1
 
 ***
 ## 8. Find last number
@@ -201,6 +263,11 @@ Output:
 Hint:
 Use the remainder % operator.
 ```
+var a = 123
+ 
+var lastDigit = a % 10
+ 
+print (lastDigit)
 
 ***
 ## 9. Dog Years
@@ -217,7 +284,11 @@ Output:
 7
 
 ```
+var rockysAgeInDogYears = 50
+ 
+var rockysAgeInHumanYears = rockysAgeInDogYears / 7
 
+print (rockysAgeInHumanYears) // prints 7
 ***
 ## 10. Alice's Age
 
@@ -253,7 +324,13 @@ alice + x = y * (bob + x)
 Solve for alice
 
 ```
+var x = 1
+var y = 3
+var bob = 12
 
+var alice = (bob * y) + (x*y) - x
+
+print (alice) // prints 27
 ***
 ## 11. Trading Oranges for Apples
 
@@ -282,7 +359,13 @@ Hint:
 Use the division(/) and the remainder(%) operator
 
 ```
+var x = 25
 
+var apples: Int = x % 5
+var oranges: Int = 3 * ( x / 5)
+ 
+print (apples)
+print (oranges)
 ***
 ## 12. Boy and Girl Percentages
 
@@ -304,7 +387,13 @@ Output:
 75 // percentage of girls
 
 ```
-
+var numberOfBoys: Int = 20
+var numberOfGirls: Int = 60
+var totalNumberOfStudents: Int = numberOfBoys + numberOfGirls
+var percentOfBoys: Int = 100 * (numberOfBoys / totalNumberOfStudents)
+var percentOfGirls: Int  = 100 * (numberOfGirls / totalNumberOfStudents)
+ print (percentOfBoys)
+ print (percentOfGirls)
 ***
 ## 13. Boolean Evaluations 2
 
@@ -318,7 +407,20 @@ d. !!!true
 e. !(true && true)
 
 ```
+var a = false || true
+print (a) // true
 
+var b = false && true
+print (b) // false
+
+var c = !false
+print (c) // true
+
+var d = !(!(!true))
+print (d) // false
+
+var e = !(true && true)
+print (e) // false
 ***
 ## 14. Boolean Evaluations 3
 
@@ -332,4 +434,17 @@ d. 19.0 >= 19.0
 e. 9 > 7 && 7 < 10
 
 ```
+var a = 3 < 12.3
+print (a) //ambiguous operator, does not evaluate but arithmetically true
 
+var b = (9 == 2)
+print (b) // false
+
+var c = "Hello!" == "Hello!"
+print (c) // true
+
+var d = 19.0 >= 19.0
+print (d) // true
+
+var e = (9 > 7) && (7 < 10)
+print (e) // true
