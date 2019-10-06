@@ -49,7 +49,7 @@ e. true && (true && (true && (true || false)))
 ```
 
 ```
-b. true
+Answer:
 c. true
 e. true
 ```
@@ -85,17 +85,11 @@ Output:
 Answer:
 
 ```
-Ex 1:
 var a = 1
 var b = 2
-var total = a + b
-print(total)
+var sum = a + b
+print(sum)
 
-Ex 2:
-var a = 13
-var b = 22
-var example2 = a + b
-print(example2)
 ```
 
 
@@ -109,11 +103,13 @@ The number of seconds in a day is 24 times the number of seconds in a hour.
 The number of seconds in a hour is 60 times the number of seconds in a minute, which is 60.
 ```
 ```
-Answer: 31536000 seoonds in a year
-var numSecInMinute = 60
-var numSecInHour = numSecInMinute * 60
-var numSecInDay = numSecInHour * 24
-var secondsInAYear = numSecInDay * 365
+var secInMin = 60
+var minInHour = 60
+var hourInDay = 24
+var dayInYear = 365
+
+var secInYear = dayInYear * hourInDay * minInHour * secInMin
+
 ```
 
 ***
@@ -153,6 +149,7 @@ Answer: 2073600
 var width = 1920
 var height = 1080
 var numberOfPixels = width * height
+print(numberOfPixels) 
 
 ```
 
@@ -376,8 +373,8 @@ Answer:
 var numberOfBoys = 20.0
 var numberOfGirls = 60.0
 
-var percentageOfBoys: Double = numberOfBoys / (numberOfBoys + numberOfGirls) * 100
-var percentageOfGirls: Double = numberOfGirls/ (numberOfGirls + numberOfBoys) * 100
+var percentageOfBoys: Double = (numberOfBoys / (numberOfBoys + numberOfGirls)) * 100
+var percentageOfGirls: Double = (numberOfGirls/ (numberOfGirls + numberOfBoys)) * 100
 
 
 ```
@@ -408,11 +405,11 @@ b. 9 == 2
 c. "Hello!" == "Hello!"
 d. 19.0 >= 19.0
 e. 9 > 7 && 7 < 10
+// note: you can find the value of a bool without creating a variable 
 
 ```
 ```
 Answer:
-a. True
 c. True
 d. True
 e. True
