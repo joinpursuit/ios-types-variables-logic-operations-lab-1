@@ -37,7 +37,7 @@ d. !!(!!true && !!false)
 
 e. true && (true && (true && (true || false)))
 ```
-## Answer: c, e, 
+## Answer: c, d, e, 
 ***
 
 ## 3. You are given two variables a and b, compute their sum and store it in another variable named sum then print the result.
@@ -67,17 +67,13 @@ Output:
 35
 ```
 ## Answer: 
-Input:
-
+```
 var a = 4
-
 var b = 6
-
 var sum = a + b
+sum = 10
+```
 
-Expected values: 10
-
-output: 10
 ***
 ## 4.Determine the number of seconds in a year and store the number in a variable named secondsInAYear.
 
@@ -87,7 +83,12 @@ The number of seconds in a year is 365 times the number of seconds in a day.
 The number of seconds in a day is 24 times the number of seconds in a hour.
 The number of seconds in a hour is 60 times the number of seconds in a minute, which is 60.
 ```
-## Answer: var secondsInAYear = 31536000
+## Answer:
+```
+var secondsInHour = 60 * 60
+var secondsInDay = 24 * secondsInHour
+var secondsInAyear = 365 * secondsInDay
+```
 ***
 ## 5. Your are given the width and height of a screen in pixels. Calculate the total number of pixels on the screen and store the result in a variable named numberOfPixels.
 
@@ -120,13 +121,12 @@ Consider a 5x3 screen like this:
 The number of pixels on this screen is 5+5+5 = 5*3
 ```
 ## Answer: 
+```
 var width = 1920
-
 var height = 1080
 
-print(width * height)
-
-2073600
+var totalNumberOfPixels = width * height
+````
 
 
 
@@ -188,19 +188,15 @@ a = b // a will have the value 2. The original value of a is lost
 b = a // b will remain the same
 ```
 ## Answer:
+```
 var a = 1
-
 var b = 2
-
 var time = a
-
 a = b
-
 b = time
 
-print(a)
 
-print(b)
+```
 ***
 ## 8. You are given a number a. Print the last digit of a.
 
@@ -228,9 +224,10 @@ Can you think of a value for k that gives the last digit?
 
 ```
 ## Answer: 
+```
 var a = 123
-
-print (a % 10)
+a % 10 
+```
 ***
 ## 9. You are given Rocky’s age in dog years. Print Rocky’s age in human years. You know that 1 human year is 7 dog years.
 
@@ -245,11 +242,11 @@ Output:
 
 ```
 ## Answer: 
-var rockysAge = 50
+```
 
-var rockysAgeInHumanYears = rockysAge / 7
 
-print(rockysAgeInHumanYears) 
+
+```
 
 ***
 ## 10. Everyone hates solving word problems by hand so let’s make a program to solve them for us. 
@@ -286,15 +283,10 @@ Solve for alice
 
 ```
 ## Answer:
-var x = 3
+```
 
-var y = 2
 
-var bob = 12
-
-var aliceAge = y * (bob + x)
-
-print(aliceAge)
+```
 
 ***
 ## 11. You have x apples. Bob trades 3 oranges for 5 apples. He does not accept trades with cut fruit. How many oranges can you get from Bob and how many apples will you have left? The number of apples you will have left should be stored in a variable named apples. The number of oranges you will have after the trade should be stored in a variable named oranges.
@@ -323,11 +315,10 @@ Use the division(/) and the remainder(%) operator
 
 ```
 ## Answer:
-var x = 17
+```
 
-var apples = x % 5
 
-var oranges = x / 5 * 3
+```
 ***
 ## 12. A class consists of numberOfBoys boys and numberOfGirls girls.
 ### Print the percentage of boys in the class followed by the percentage of girls in the class. The percentage should be printed rounded down to the nearest integer. For example 33.333333333333 will be printed as 33.
@@ -347,17 +338,11 @@ Output:
 
 ```
 ## Answer: 
-var numberOfBoys = 20
+```
 
-var numberOfGirls = 60
 
-var percentOfBoys:Double  = (20 / 80 * 100)
 
-var percentOfGirls:Double = (60 / 80 * 100)
-
-print(percentOfBoys)
-
-print(percentOfGirls)
+```
 ***
 ## 13.Which of the following expressions evaluate to true?
 
