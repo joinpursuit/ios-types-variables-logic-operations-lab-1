@@ -15,7 +15,7 @@
 Which of the following variables/constants are declared correctly?  Select all that apply.
 
 ```swift
-a. let nameOfPrincipal: Character = "Mrs. Watkins"
+a. let nameOfPrincipal: Character = "Mrs. Watkins" 
 
 b. var temperatureOutside: Int = 90.7
 
@@ -24,6 +24,16 @@ c. var isSummer: String = false
 d. let whiteHouseAddress: Int + String = 1600 + "Pennsylvania Ave"
 
 e. var peopleAtParty: Double = "95"
+```
+```
+
+Answer : None of the above
+a) character is supposed to be one letter 
+b) int has to be a whole number 
+c) string needs " " 
+d) cant add int and var  
+e) double is an int
+
 ```
 
 ***
@@ -41,6 +51,12 @@ c. (3 < 2 || (0 < 1 && 3 >= 3)) && true
 d. !!(!!true && !!false)
 
 e. true && (true && (true && (true || false)))
+```
+
+```
+Answer:
+c. true
+e. true
 ```
 
 ***
@@ -73,6 +89,16 @@ sum = 35
 Output:
 35
 ```
+Answer:
+
+```
+var a = 1
+var b = 2
+var sum = a + b
+print(sum)
+
+```
+
 
 ***
 ## 4. Seconds in Year
@@ -84,6 +110,15 @@ Hint:
 The number of seconds in a year is 365 times the number of seconds in a day.
 The number of seconds in a day is 24 times the number of seconds in a hour.
 The number of seconds in a hour is 60 times the number of seconds in a minute, which is 60.
+```
+```
+var secInMin = 60
+var minInHour = 60
+var hourInDay = 24
+var dayInYear = 365
+
+var secInYear = dayInYear * hourInDay * minInHour * secInMin
+
 ```
 
 ***
@@ -120,6 +155,15 @@ Consider a 5x3 screen like this:
 The number of pixels on this screen is 5+5+5 = 5*3
 ```
 
+```
+Answer: 2073600
+var width = 1920
+var height = 1080
+var numberOfPixels = width * height
+print(numberOfPixels) 
+
+```
+
 ***
 ## 6. Sum and Difference
 
@@ -151,6 +195,15 @@ Hint:
 sum + diff = a + a + b - b
 sum + diff = 2 * a
 ```
+```
+Answer:
+var sum = 16
+var diff = 4
+
+var a = (sum + diff) / 2 
+var b = sum - a
+```
+
 
 ***
 ## 7. Swap Values
@@ -174,6 +227,16 @@ var b = 2
 
 a = b // a will have the value 2. The original value of a is lost
 b = a // b will remain the same
+```
+```
+Answer:
+var a = 2
+var b = 1
+let  newA = a
+
+a = b
+b = newA
+
 ```
 
 ***
@@ -201,6 +264,11 @@ Output:
 Hint:
 Use the remainder % operator.
 ```
+```
+Answer:
+var a = 123
+var lastDigitA = a % 10
+```
 
 ***
 ## 9. Dog Years
@@ -217,7 +285,12 @@ Output:
 7
 
 ```
-
+```
+Answer:
+var rockysAge = 50
+var dogYear = 7
+var humanYear = rockysAge / dogYear 
+```
 ***
 ## 10. Alice's Age
 
@@ -253,7 +326,14 @@ alice + x = y * (bob + x)
 Solve for alice
 
 ```
+```
+Answer:
 
+var bob = 12
+var x = 3
+var y = 2
+var alice = (( bob + x ) * y ) - x
+```
 ***
 ## 11. Trading Oranges for Apples
 
@@ -282,6 +362,12 @@ Hint:
 Use the division(/) and the remainder(%) operator
 
 ```
+```
+Answer:
+var x = 17
+var oranges = (x / 5) * 3
+var apples = 17%5
+```
 
 ***
 ## 12. Boy and Girl Percentages
@@ -304,6 +390,16 @@ Output:
 75 // percentage of girls
 
 ```
+```
+Answer:
+var numberOfBoys = 20.0
+var numberOfGirls = 60.0
+
+var percentageOfBoys: Double = (numberOfBoys / (numberOfBoys + numberOfGirls)) * 100
+var percentageOfGirls: Double = (numberOfGirls/ (numberOfGirls + numberOfBoys)) * 100
+
+
+```
 
 ***
 ## 13. Boolean Evaluations 2
@@ -318,6 +414,11 @@ d. !!!true
 e. !(true && true)
 
 ```
+```
+Answer:
+a. True
+c. True
+```
 
 ***
 ## 14. Boolean Evaluations 3
@@ -330,6 +431,13 @@ b. 9 == 2
 c. "Hello!" == "Hello!"
 d. 19.0 >= 19.0
 e. 9 > 7 && 7 < 10
+// note: you can find the value of a bool without creating a variable 
 
+```
+```
+Answer:
+c. True
+d. True
+e. True
 ```
 
