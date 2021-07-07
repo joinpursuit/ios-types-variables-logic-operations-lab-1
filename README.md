@@ -25,7 +25,7 @@ d. let whiteHouseAddress: Int + String = 1600 + "Pennsylvania Ave"
 
 e. var peopleAtParty: Double = "95"
 ```
-
+none
 ***
 ## 2. Boolean Evaluations 1
 
@@ -42,7 +42,7 @@ d. !!(!!true && !!false)
 
 e. true && (true && (true && (true || false)))
 ```
-
+c, e
 ***
 
 ## 3. Sum
@@ -72,8 +72,10 @@ sum = 35
 
 Output:
 35
+``` swift
+var sum: Int = a + b 
+ print(sum)
 ```
-
 ***
 ## 4. Seconds in Year
 
@@ -85,7 +87,7 @@ The number of seconds in a year is 365 times the number of seconds in a day.
 The number of seconds in a day is 24 times the number of seconds in a hour.
 The number of seconds in a hour is 60 times the number of seconds in a minute, which is 60.
 ```
-
+var secondsInAYear : Int = 365*(24*(60 * 60))
 ***
 ## 5. Number of Pixels
 
@@ -119,7 +121,7 @@ Consider a 5x3 screen like this:
 
 The number of pixels on this screen is 5+5+5 = 5*3
 ```
-
+var numberOfPixels: Int = height * width
 ***
 ## 6. Sum and Difference
 
@@ -150,8 +152,10 @@ b = 1
 Hint:
 sum + diff = a + a + b - b
 sum + diff = 2 * a
+``` swift
+var a : Int = (sum+diff)/2
+var b : Int = sum - a
 ```
-
 ***
 ## 7. Swap Values
 
@@ -174,8 +178,11 @@ var b = 2
 
 a = b // a will have the value 2. The original value of a is lost
 b = a // b will remain the same
+``` swift
+var tempA = a
+a = b
+b = tempA
 ```
-
 ***
 ## 8. Find last number
 
@@ -201,7 +208,7 @@ Output:
 Hint:
 Use the remainder % operator.
 ```
-
+print(a % 10)
 ***
 ## 9. Dog Years
 
@@ -217,7 +224,7 @@ Output:
 7
 
 ```
-
+print(rockysAge/7)
 ***
 ## 10. Alice's Age
 
@@ -253,7 +260,7 @@ alice + x = y * (bob + x)
 Solve for alice
 
 ```
-
+alice = (y * (bob + x)) - x
 ***
 ## 11. Trading Oranges for Apples
 
@@ -281,8 +288,10 @@ oranges = 15
 Hint:
 Use the division(/) and the remainder(%) operator
 
+```swift
+var oranges = (x/5) * 3
+var apples = x % 5
 ```
-
 ***
 ## 12. Boy and Girl Percentages
 
@@ -304,7 +313,13 @@ Output:
 75 // percentage of girls
 
 ```
-
+``` swift
+var boys = Double(numberOfBoys)
+var girls = Double(numberOfGirls)
+var percentBoys = (boys/(boys + girls)) * 100
+print(Int(percentBoys))
+print(Int(100 - percentBoys))
+```
 ***
 ## 13. Boolean Evaluations 2
 
@@ -318,7 +333,7 @@ d. !!!true
 e. !(true && true)
 
 ```
-
+a, c
 ***
 ## 14. Boolean Evaluations 3
 
@@ -332,4 +347,4 @@ d. 19.0 >= 19.0
 e. 9 > 7 && 7 < 10
 
 ```
-
+a, c, d, e
