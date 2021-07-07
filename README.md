@@ -26,6 +26,9 @@ d. let whiteHouseAddress: Int + String = 1600 + "Pennsylvania Ave"
 e. var peopleAtParty: Double = "95"
 ```
 
+```
+All wrong
+```
 ***
 ## 2. Boolean Evaluations 1
 
@@ -43,6 +46,9 @@ d. !!(!!true && !!false)
 e. true && (true && (true && (true || false)))
 ```
 
+```
+E C A
+```
 ***
 
 ## 3. Sum
@@ -73,7 +79,10 @@ sum = 35
 Output:
 35
 ```
-
+```
+var sum = a + b
+print(sum)
+```
 ***
 ## 4. Seconds in Year
 
@@ -85,7 +94,12 @@ The number of seconds in a year is 365 times the number of seconds in a day.
 The number of seconds in a day is 24 times the number of seconds in a hour.
 The number of seconds in a hour is 60 times the number of seconds in a minute, which is 60.
 ```
-
+```
+var secondsInYear = 0
+var secondsInMin = 60
+secondsInYear = secondsInMin*60*24*365
+print(secondsInYear)
+```
 ***
 ## 5. Number of Pixels
 
@@ -118,6 +132,12 @@ Consider a 5x3 screen like this:
 *****
 
 The number of pixels on this screen is 5+5+5 = 5*3
+```
+```
+var width = 1920
+var height = 1080
+var numberOfPixels = width * height
+print(numberOfPixels)
 ```
 
 ***
@@ -152,6 +172,26 @@ sum + diff = a + a + b - b
 sum + diff = 2 * a
 ```
 
+```
+var sum = 16
+var diff = 4
+
+var a1 = 10
+var b1 = 6
+
+
+var sum1 = 2
+var diff1 = 0
+
+var a2 = 1
+var b2 = 1
+
+var originalNumber1 = (sum - diff)/2
+var originalNumber2 = originalNumber1 + diff
+print(originalNumber1)
+print(originalNumber2)
+```
+
 ***
 ## 7. Swap Values
 
@@ -174,6 +214,22 @@ var b = 2
 
 a = b // a will have the value 2. The original value of a is lost
 b = a // b will remain the same
+```
+```
+var a = 1
+var b = 2
+
+swap(&a, &b)
+print(a)
+print(b)
+
+//or
+
+var c = 0
+c = a
+a = b
+b = c
+print(a,b)
 ```
 
 ***
@@ -201,6 +257,9 @@ Output:
 Hint:
 Use the remainder % operator.
 ```
+```
+print(a  %  10)
+```
 
 ***
 ## 9. Dog Years
@@ -216,6 +275,9 @@ var rockysAgeInDogYears = 50
 Output:
 7
 
+```
+```
+print(rockyAge/7)
 ```
 
 ***
@@ -254,6 +316,12 @@ Solve for alice
 
 ```
 
+````
+var alice = y * (bob + x) - x
+print(alice)
+
+````
+
 ***
 ## 11. Trading Oranges for Apples
 
@@ -282,7 +350,13 @@ Hint:
 Use the division(/) and the remainder(%) operator
 
 ```
+````
+var apples = x % 5
+var oranges = (x / 5) * 3
+print(apples)
+print(oranges)
 
+````
 ***
 ## 12. Boy and Girl Percentages
 
@@ -304,7 +378,13 @@ Output:
 75 // percentage of girls
 
 ```
-
+```
+var numberOfGirls: Double = 20
+var numberOfBoys: Double = 60
+var total = numberOfBoys + numberOfGirls
+var percentageOfBoys = Int((numberOfBoys/total) * 100)
+var percentageOfGirls = Int((numberOfGirls/total) * 100)
+```
 ***
 ## 13. Boolean Evaluations 2
 
@@ -318,7 +398,9 @@ d. !!!true
 e. !(true && true)
 
 ```
-
+```
+A , C
+```
 ***
 ## 14. Boolean Evaluations 3
 
@@ -332,4 +414,6 @@ d. 19.0 >= 19.0
 e. 9 > 7 && 7 < 10
 
 ```
-
+````
+A,C,D,E
+````
